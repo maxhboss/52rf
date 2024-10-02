@@ -1,0 +1,1400 @@
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=1024"><script type="text/javascript">window.name = "parent4gameSocialAuth"</script><script type="text/javascript">window.onload = function () {
+            if (/.*isEmbedded.*/.test(location.search)) {
+                    document.body.classList.add('embedded');
+                    setTimeout(function() {
+                        window.parent.postMessage({
+                            action: 'loading',
+                            data: {
+                                isLoaded: true
+                            }
+                        }, '*');
+                    }, 0);
+
+                    window.addEventListener('click', function() {
+                        window.parent.postMessage({
+                            action: 'click',
+                            data: {}
+                        }, '*');
+                    });
+
+                    window.addEventListener('keydown', function(e) {
+                        if (e.altKey && e.keyCode === 81) {
+                            window.parent.postMessage({
+                                action: 'logout',
+                                data: {}
+                            }, '*');
+                        }
+                    });
+
+                    var styles = document.createElement('style');
+                    styles.innerHTML = "::-webkit-scrollbar{width:10px;height:10px;}::-webkit-scrollbar-thumb{background-color:rgba(255,255,255,.3);background-size:5px;background-clip:content-box;border-left:5pxsolidtransparent;}::-webkit-scrollbar-thumb:hover{background-color:rgba(255,255,255,.3);background-size:10px;background-clip:content-box;border-left:none;}";
+                    document.head.appendChild(styles);
+            }
+        }</script><title data-react-helmet="true">RF Banana Info</title><link data-react-helmet="true" rel="shortcut icon" type="image/x-icon" href="..\favicon.ico"><meta data-react-helmet="true" name="description" content="RF Banana international game server 3D PC MMORPG RF Online, originally named 'Rising Force'."><meta data-react-helmet="true" property="og:title" content="RF Banana Info"><meta data-react-helmet="true" property="og:description" content="RF Banana international game server 3D PC MMORPG RF Online, originally named 'Rising Force'. Like most MMORPGs, it follows the typical fantasy setting complete with swords and sorcery, but it also emphasizes the three-way Race vs. Race vs. Race (RvRvR) concept and modern/futuristic technology such as mecha and nuclear weapons"><meta data-react-helmet="true" property="og:image" content="https://rfbanana.com/rfeu/favicon.png"><meta data-react-helmet="true" property="og:type" content="website"><meta data-react-helmet="true" property="og:url" content="https://rfbanana.com/rf/info/"><link rel="sitemap" type="application/xml" href="..\..\v1.0.238\sitemap.xml"><script>
+      
+      
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer && window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-869366007', {"send_page_view":false});
+      }
+      </script><link rel="stylesheet" href="../premium/dist/hystmodal.min.css?version=1.0.2"><link rel="stylesheet" href="../premium/demos.css?version=1.0.2"><link as="script" rel="preload" href="..\..\v1.0.238\webpack-runtime-6906cc7de573306f4ac6.js?version=1.0.2"><link as="script" rel="preload" href="..\..\v1.0.238\styles-3f68cefad20942d2c676.js?version=1.0.2"><link as="script" rel="preload" href="..\..\v1.0.238\app-8f17a3f55d5284fc1bca.js?version=1.0.2"><link as="script" rel="preload" href="..\..\v1.0.238\commons-c741344646a5bb6b9473.js?version=1.0.2"><link as="script" rel="preload" href="..\..\v1.0.238\component---src-pages-rf-preorder-index-tsx-3666a2018700eb754b39.js?version=1.0.2"><link as="fetch" rel="preload" href="https://rfbanana.com/v1.0.238/page-data/rf/info/page-data.json?version=1.0.2" crossorigin="anonymous"><link rel="stylesheet" href="..\..\v1.0.238\styles-104.css?version=1.0.2"><link rel="stylesheet" href="https://rfbanana.com/v1.0.238/component---src-pages-rf-preorder-index-tsx-102.css?version=1.0.2"></head><body><script type="text/javascript">var webP = new Image();
+        webP.src = 'data:image/webp;base64,UklGRi4AAABXRUJQVlA4TCEAAAAvAUAAEB8wAiMwAgSSNtse/cXjxyCCmrYNWPwmHRH9jwMA';
+        webP.onload = webP.onerror = function() {
+            if (webP.height === 2) {
+                document.body.classList.add('webp');
+            } else {
+                document.body.classList.remove('webp');
+                document.body.classList.add('no-webp');
+            }
+        };</script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWH3HJD" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="Layout__layout__2UCV0 Layout__relative__2W7xr"><div class="Layout__layoutInner__qgpH4 Layout__noPaddingBottom__12Bxk"><div class="Header__container__29JpO" id="page-header"><header class="Header__container__SY9d8"><div class="Header__wrapper__tbjvz"><div class="Header__header__Q2Gr6"><nav class="Nav__container__3FQw-"><a class="Header__link__3vIwv Header__logoLink__3z2Pp" href="https://rfbanana.com/rf/" target="_blank" external=true><i class="Icon__Icon__3xFLV"><svg class="Icon__theme-light__3bfiC" width="25" height="25" viewbox="0 0 64 64"><path d="M36.2 49.8c-5.3-2.4-14.7-9.3-17.2-17.6S13.6 18.5 11.9 17s-.5-1.1 0-2 1.4-5.5 1.7-8h3.8a2 2 0 0 0 0-4H3.9a2 2 0 0 0 0 4h2v8c0 .9-2.2 5.7-3.4 11.7S3.9 43 11.9 51s18.5 10 23.4 10c8.2 0 9.4-4 8.8-5.9s-2.7-2.8-7.9-5.3z" fill="#0af611"></path></svg></i></a><a class="Header__link__3vIwv" href="https://rfbanana.ru" target="_blank">RU</a><a class="Header__link__3vIwv" href="https://cp.rfbanana.ru/" target="_blank">vote/donate</a><a class="Header__link__3vIwv" href="https://community.rfbanana.ru/" target="_blank" rel="noreferrer noopener">forum</a><a class="Header__link__3vIwv" href="https://discord.gg/jMXjn6k" target="_blank" rel="noreferrer noopener">discord</a></nav><div class="UserBar__container__A0i7N UserBar__stretch__2pBGy"><a class="Header__link__3vIwv" href="https://cp.rfbanana.ru" target="_blank">Sign In</a></div></div><div class="Header__subHeader__3Nvsu"><div class="SubHeader__container__2mF_d"><nav class="Nav__container__3FQw- Layout__subnav__1QcN6"><a class="Layout__link__1fsSs" href="/rf/">Main</a><a class="Layout__link__1fsSs" href="https://rfbanana.com/rf/premium/">Premium</a><a aria-current="page" class="Layout__link__1fsSs Layout__active__1amXQ" href="https://rfbanana.com/rf/info/">Server Information</a></nav><form action="#"   data-hystmodal="#modalSimple" class="LauncherInstaller__container__2Ki4D"><input type="hidden" name="gameKey" value="rf-eu"><button data-locator="install-4gc" type="submit" tabindex="0" class="LauncherInstaller__icon__2JeCe IconButton__mod-center__XKAGs IconButton__container__2qhkS IconButton__theme-yellow__uw0Tq"><i class="Icon__Icon__3xFLV IconButton__icon__1LARM"><svg class="Icon__theme-light__3bfiC" width="15" height="15" viewbox="0 0 13 13"><path d="M5.955 1.02C8.3.662 10.65.325 13 0v6.16c-2.348.009-4.696.044-7.045.052V1.02zM0 1.85c1.766-.272 3.539-.507 5.312-.728l.003 5.109c-1.772-.002-3.543.025-5.315.02V1.85zm0 4.938c1.77-.006 3.54.022 5.31.019 0 1.708.005 3.415.002 5.123-1.769-.261-3.54-.49-5.312-.729V6.787zm5.945.068h7.054c.002 2.048 0 4.096 0 6.145a507.54 507.54 0 0 0-7.044-.993l-.01-5.152z"></path></svg></i><span class="IconButton__label__SSu-7"><span>Install RF Banana</span></span></button></form></div></div></div></header></div><section class="Preorder__wrap__23nKY"><div class="Preorder__container__1LEy3"><div class="Preorder__packs__14kPh"><div class="Preorder__header__1dP4X"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\logo-56e3dc2bc0e3d0aa3eba506a47111857.webp 1x"><img class="Preorder__logo__1z3p0" alt="RF Online" src="..\..\v1.0.238\static\logo-7af60b5dc573f968af23a2e0344f2df1.png"></picture><div class="Timeline__container__Tmzan"><div class="Timeline__milestone__26Pir"><div class="Timeline__period__pt8Dn">5 &nbsp;May 2023</div><div class="Timeline__milestoneTitle__9eu4o">Start RF Banana<br>70 level, exp x10-30</div><div class="Timeline__icon__2_aab"><div class="Timeline__square__27xkE">.</div></div></div><div class="Timeline__milestone__26Pir"><div class="Timeline__period__pt8Dn">August 2023</div><div class="Timeline__milestoneTitle__9eu4o">PEAK ONLINE<br>MORE 600 PLAYERS</div><div class="Timeline__icon__2_aab"><div class="Timeline__square__27xkE">.</div></div></div><div class="Timeline__milestone__26Pir"><div class="Timeline__period__pt8Dn">February 2024</div><div class="Timeline__milestoneTitle__9eu4o">GAME WORLD STILL ALIVE<br>EVERYDAY 300+ PLAYERS</div><div class="Timeline__icon__2_aab"><div class="Timeline__square__27xkE">.</div></div></div><div class="Timeline__milestone__26Pir"><div class="Timeline__period__pt8Dn">June 2024</div><div class="Timeline__milestoneTitle__9eu4o">INTEGRATE NEW SYSTEM<br>OF SHORT-TIME WORLDS</div><div class="Timeline__icon__2_aab"><div class="Timeline__square__27xkE">?</div></div></div></div></div><div class="Preorder__entertext__293AU"><div class="Preorder__maintext__3eocN">
+        
+        <span>NEW QUALITY</span><br>RF ONLINE GAMEPLAY</div><img class="Preorder__lineimg__2E_CM" src="..\..\v1.0.238\517a9d8b424ca4388b2535f226e2e958.svg" alt="RF Online"><div class="Preorder__paragraph__3SJeo">
+        Looking stable rf online server with high pop and low exp? Where premium is free, cheats not work, no delay for any country? Where available features autoloot, autotarget and ideal race balance?
+Tired of fast closing rf online servers? Dislike gameplay only for RMT? Hate unexpected PVP while grind?<br/>
+RF Banana changed view at RF Online for thousands players. <br/>Let's change also yours </div></div><div class="Packs__container__1hfdE"><div class="Packs__packs__3yYzi"><div><div class="Packs__pack__2oLM5 Packs__soldate__3QsAq"><div class="Packs__top__1ozuq"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\soldate-4f57e024a7bf9567c96b06c1c241a2b8.webp 1x"><img class="Packs__imgPacks__1IrGX" src="..\..\v1.0.238\static\soldate-780d22c86002f393cc3b639a60d53c4c.png"></picture>
+        <div class="Packs__title__CGI7i">Clear monster loot</div></div><div class="Packs__itemsContainer__11i-S"><ul><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\hatC-c0256c8558a48067da8a861b58bfc0e1.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-hatC__10vky"></picture></div>
+        <span class="Packs__itemText__3tzsh">Banana</span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\1col.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-nickname__3iwJ_"></picture></div>
+        <span class="Packs__itemText__3tzsh">Weapon, Armor and Shields <font color="#FF9">Type B</font></span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\1col2.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-prem__2K5u6"></picture></div>
+        <span class="Packs__itemText__3tzsh">Battle-EXP jades</span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\ore.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-chocolate__29U7N"></picture></div>
+        <span class="Packs__itemText__3tzsh">Pitboss loot info</span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\capsule.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-increase__2tENa"></picture></div>
+        <span class="Packs__itemText__3tzsh">Autoevent "Palm Tree" loot info</span><span class="Packs__itemCount__1fvUb"> </span></div></li></ul></div><div><button type="button" class="Packs__button__2NMM_" disabled="">Not Available</button><button class="Packs__sendToFriend__3TvEA" disabled="">Not Available</button></div></div></div><div><div class="Packs__pack__2oLM5 Packs__sargento__5EAY4"><div class="Packs__top__1ozuq"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\sargento-b007b84fb394504e68f0241844847160.webp 1x"><img class="Packs__imgPacks__1IrGX" src="..\..\v1.0.238\static\sargento-ee8c915adec984e91c309d72d3faa0c4.png"></picture>
+        
+        <div class="Packs__title__CGI7i">character advancement</div></div><div class="Packs__itemsContainer__11i-S"><ul><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-hatS__3uUDI"></picture></div>
+        <span class="Packs__itemText__3tzsh">Weapon recraft system: </br><font color="#FF9">Type B</font>=><font color="orange">Type C</font>=><font color="#069">Type D</font>=><font color="#996">Leon</font></span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col2.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-nickname__3iwJ_"></picture></div>
+        <span class="Packs__itemText__3tzsh">Armor and Shields recraft system: </br><font color="#FF9">Type B</font> => <font color="orange">Type C</font> => <font color="#6cf">Type SP</font></span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col6.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-prem__2K5u6"></picture></div>
+        <span class="Packs__itemText__3tzsh">Talic and gems recraft system</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\mau.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-prem__2K5u6"></picture></div>
+        <span class="Packs__itemText__3tzsh">Mau & Animus powered by equipment</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col5.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-teleport__2UKkQ"></picture></div>
+        <span class="Packs__itemText__3tzsh">Party and solo dungeons 21+ level</span><span class="Packs__itemCount__1fvUb"> </span></div></li></ul><ul class="Packs__extraItems__1mtjE"><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col4.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-revival__qkdig"></picture></div>
+        <span class="Packs__itemText__3tzsh">Daily NPC quests lines 40+ level</span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\2col3.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-summon__2in42"></picture></div>
+        <span class="Packs__itemText__3tzsh">Quest boxes reward every level</span><span class="Packs__itemCount__1fvUb"> </span></div></li></ul><button type="button" class="Packs__showExtraItems__2j3yD"><span class="Packs__less__1SpfK">Show more</span></button></div><div><button type="button" class="Packs__button__2NMM_" disabled="">Not Available</button><button class="Packs__sendToFriend__3TvEA" disabled="">Not Available</button></div></div></div><div><div class="Packs__pack__2oLM5 Packs__lieutenant__L7i26"><div class="Packs__top__1ozuq"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\lieutenant-c18f1b90c795ac81c250c7333a1cf9aa.webp 1x"><img class="Packs__imgPacks__1IrGX" src="..\..\v1.0.238\static\lieutenant-21832c8e079d03f1cc9f096a6d513fa5.png"></picture>
+        
+        <div class="Packs__title__CGI7i">Comfortable gaming</div></div><div class="Packs__itemsContainer__11i-S"><ul><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\target.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-hatL__36UTJ"></picture></div>
+        <span class="Packs__itemText__3tzsh">Autoloot & Autotarget feature<br>Quest navigation feature</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7 Packs__itemIconExclusive__2_AFy"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\bag.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-nickname__3iwJ_"></picture></div>
+        <span class="Packs__itemText__3tzsh">Free premium - no pay to play</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\pvp.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-prem__2K5u6"></picture></div>
+        <span class="Packs__itemText__3tzsh">Clone-locations without PVP</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\3col4.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-jewelry__qfHt7"></picture></div>
+        <span class="Packs__itemText__3tzsh">Anticheat guard for fair play</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\3col6.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-jewelry__qfHt7"></picture></div>
+        <span class="Packs__itemText__3tzsh">Streamers and guild rewards</span><span class="Packs__itemCount__1fvUb"> </span></div></li></ul>
+        <ul class="Packs__extraItems__1mtjE"><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\3col5.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-jade__1nf_c"></picture></div>
+        <span class="Packs__itemText__3tzsh">No delay for players over the world</span><span class="Packs__itemCount__1fvUb"> </span></div></li>
+        <li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\3col3.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-expcapsule__38Zsf"></picture></div>
+        <span class="Packs__itemText__3tzsh">144 FPS client</span><span class="Packs__itemCount__1fvUb"> </span></div></li><li class="Packs__item__1oEXI"><div class="Packs__itemTooltipContainer__1JHKD Tooltip__container__350Zo"><div class="Packs__itemIcon__2qBG7"><picture><source type="image/webp" srcset="..\..\v1.0.238\static\24.webp 1x"><img class="Packs__itemIconImg__3orvW Packs__icon-seed__3ASta"></picture></div>
+        <span class="Packs__itemText__3tzsh">Long term play server always online</span><span class="Packs__itemCount__1fvUb">x1</span></div></li></ul><button type="button" class="Packs__showExtraItems__2j3yD"><span class="Packs__less__1SpfK">Show more</span></button></div><div><button type="button" class="Packs__button__2NMM_" disabled="">Not Available</button><button class="Packs__sendToFriend__3TvEA" disabled="">Not Available</button></div></div></div></div></div></div><div class="SocialMenu__container__3T5aY"><div class="SocialMenu__links__pKLNB"><a href="https://vk.com/rfbanana" class="SocialMenu__link__f0UUJ SocialMenu__forum__1q4j9" rel="noreferrer noopener" target="_blank"><span class="SocialMenu__namelink__29B_m">VK</span></a><a href="https://discord.gg/jMXjn6k" class="SocialMenu__link__f0UUJ SocialMenu__discord__qRc8E" rel="noreferrer noopener" target="_blank"><span class="SocialMenu__namelink__29B_m">discord</span></a><a href="https://www.vk.com/rfbanana" class="SocialMenu__link__f0UUJ SocialMenu__fb__1tELK" rel="noreferrer noopener" target="_blank"><span class="SocialMenu__namelink__29B_m">VK</span></a></div><button type="button" class="SocialMenu__button__ZxSSi"><img class="SocialMenu__buttonImg__zehdq" src="..\..\v1.0.238\ba5a9d846b8f9cb384617e1391be5a71.svg" alt="Social Menu"><img class="SocialMenu__buttonImgClose__19ozp" src="..\..\v1.0.238\29a727a9b7a6cbef008b4d79a3b07317.svg" alt="Social Menu"></button></div><div class="Preorder__promocods__278IB"><div class="Faq__container__Sv1jg"><h2 class="Faq__maintitle__196UO">FULL DESCRIPTION</h2>
+        
+    
+    
+    <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+       EXP Rates (season 2023-2024/25)</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+     
+     » Max level: <font color="orange">70</font>. No stages, no restrictions, no increase.<br />
+
+    » EXP Rates Character level <font color="orange">х10</font><br />
+    » Premium does not give bonuses to EXP Rates. No EXP Rates modifiers in cashshop
+    <p align="center">
+     <button class="button demobuttons2" data-hystmodal="#modalLong10">How to increase character level EXP Rates? [click]</button></p>
+    <br />
+    
+     
+     
+    » EXP Rates PT and Skills: <font color="orange">х20</font> (0.35% EXP buff close range at 6 skill level)<br/>
+    » EXP Rates Magic: <font color="orange">х25</font> (0.10%  EXP buff magic at 6 skill level)<br/>
+    » EXP Rates Animus level: <font color="orange">х30</font> (Increased EXP amount need for every level Hecate)<br/>
+     
+       </div></div></div>
+        <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+Main information about RF Banana Server
+</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+
+» Stable and popular project gives players sure in server lifetime for more than a year.<br />
+» International project with no delay around the world - new emotions and feels.<br />
+» RF Banana server translated into 4 languages: Russian, English, Indonesian, Portuguese.<br />
+» Honest administration - no black market, only shop and premium in sell.<br />
+" Anti cheat. Antiddos. Server is available 24/7/365.<br />
+
+<font color="white"><b>Unique RF Banana features:</b></font><br />
+» Version RF Online 4.15 Update (2016 CCR Inc).<br />
+» Autotarget PVP / PVE - Automatic select nearest target by pressing the TAB button. Flexible settings.<br />
+» Quest navigation - Displaying the quest goal with dots on the map and animation over monster head.<br />
+» New MAU and Animus generators give bonus attack by talic upgrading weapons, jewelry and potions.<br />
+» Expanded inventory slots hold up to 250 stackable items per slot.<br />
+» Autoloot - Instant get all items in inventory after the death of the monster.<br />
+» Improved box mechanics - automatic stacking items, dropping items of only your race, issuing inventory in several slots at once.<br />
+» Improved PVE locations - have been created additional clones of locations Cauldron, Elan, Beast Mountains, Outcast land, Jetso Island. In that bonus locations it is impossible to be attacked by a character of another race. <br/>WARNING: PVP locations are also available and are the best place for character development. <br/>EXP Rates in PVE locations is reduced by 2 times in comparison with PVP location, Loot amount in 3 times. <br/>
+» The standard drop from all monsters has been changed to items "Banana", "Banana +", "Banana ++". Can be eaten to restore HP, packed in box or sold to NPCs for race currency.<br />
+» Auto-event: Pitboss "Palm Tree" spawn every 2 hours in the center of the locations: HQ, Eter, Sette, Cartela Lab and Elven Land. Loot available for everyone.<br />
+» Created 12 new repeat group quests, 7 new solo and 3 new group dungeons.<br />
+» Active improved Auction for racial currency » Active improved mail.<br />
+» Website Control Panel with information about current online, ChipWar statistic, level and equipment all players.<br />
+» Premium status is available for purchase for any number of days, minimum 24 hours.<br />
+» You can get free Banana Points (Cash) for your vote in mmotops or Let's Play streams.<br />
+» Transfer Banana Points (Cash) between players available by Golden Banana item.<br />
+» Instant purchase Banana Points (Cash) in most countries of the world from a bank card.<br />
+» Instant purchase Banana Points (Cash) from a cryptocurrency wallet.<br />
+
+
+
+
+
+<font color="white"><b>Visual changes and improvements:</b></font><br />
+» Game interface improved and more visually pleasing.<br />
+» The target's HP bar is divided into 10 parts with different colors.<br />
+» Armor icons have info about class and type of B/C/SP item.<br />
+» Weapon icons have info about type B/C/D of the item.<br />
+» Leon's weapon icons have info about level of the item.<br />
+» Added information about the level, type and ability in names every part of equipment.<br />
+» Added information about combinations and colored text in descriptions every part of equipment.<br />
+» Added all official models of equipment, Mau, Animus and siege sets for 2023<br/>
+» Increased the radius of the character's view at all locations (including Crag mines location).<br />
+» Fixed an issue with player models freezing when out of line of sight.<br />
+» Premium items stacked in one interface window, without selecting an item.<br />
+» Increased possible distance of the camera zoom from the character.<br />
+» The number of HP terminals of all races during ChipWar is visible to all players.<br />
+<font color="white"><b>Changes in Race leaders political system:</b></font><br />
+» Race Leader can set the ranks of the guilds and distribute % of the auction between them.<br />
+» Support Officer active skill bonus reduced to 10% attack + 10% defense + 20% HP.<br />
+» Support Officer active skill consume 20 mana per second<br />
+» The item "Race Officer Armor" has been removed. Added "Race Officer Cloak" item.<br />
+
+<font color="white"><b>Improvements in enchant and safe enchant</b></font><br />
+» Any type Weapon, armor, shield : +1~ +4 (Success or Fail), +5~ +7 (Success or Fail or Destroy)<br />
+» Any booster : +1~ +3 (Success or Fail), +4~ +6 (Success or Fail or Destroy)<br />
+ <font color="white"><b>Other changes gameplay:</b></font><br />
+ 
+» All charms have a maximum effect of 1 item.<br />
+» All generators have a maximum effect of 2 items (1 npc + 1 cashshop or 2 cashshop).<br />
+» Extra talics can be re-crafted into other random talics.<br />
+» Gems can be re-crafted from T1 to T5.<br />
+» Removed places for mining ore with reduced mining speed.<br />
+» HolyMentalScanner item (HMS) can be thrown away.<br />
+» Removed debuffs from chip guards.<br />
+» Scroll of teleport to the HQ is available for use from any location.<br />
+» Booster active skill cooldown reduced to 120 seconds.<br />
+» Removed exp from monsters in dungeons
+» Removed invisibility potions and invisibility cloaks.<br />
+» Removed Dungeon level 45-60. Added analog - Elven Land location level 50+.<br />
+» Removed the ability to combine talics into chips to sell for race currency.<br />
+» Removed all classic NPC quests from.<br />
+» Disabled all level restrictions quests.<br />
+» Disabled Points: PVP, Processing, Hunting.<br />
+
+ </div></div></div>
+        
+        <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+Changes in classes and skills
+        </div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+
+» All Cross-Classes (X-Classes) available.<br />
+» Unlimited and free job change at NPC Hero.<br />
+» Unique PT of the race (Launcher/Animus/MAU) has no level restrictions.<br/>
+<font color="white"><b>Changes in class-skills</b></font>:<br />
+» Duration of all class-buffs: 1080 seconds (except haste and invisibility)<br />
+» Class-buffs and active skills "Taunt" of the ShieldMillers does not require a shield to be equipped.<br />
+» Class-buff Bellato Psyper "Power of the Ancients" gives an additional +10% attack and +10 crit chance.<br />
+<font color="white"><b>Changes in all skills</b></font>:<br />
+» Magic debuff "Quicksand" reduces an additional -0.7 movement speed.<br />
+» Magic debuff "Confusion" reduces an additional 30 evasion (up to -50).<br />
+» Cora race magic "Sacrifice" has been replaced with the bellato race magic "Blessing".<br />
+<br />
+
+<font color="white"><b>Animus Summoner (Cora unique class)</b></font>:<br/>
+» Up to level 50, no restriction by level to summon animus.<br/>
+» Passive regeneration of all animus and tech animus has been increased.<br/>
+» Animus "Innana" defense, bonus defense, and elemental defense increased.<br/>
+» Animus "Paimon" aggro increased.<br/>
+» Animus "Paimon" gains experience for killing a monster with a summoner.<br/>
+» Animus "Tech-Paimon" is disabled.<br/>
+» At level 55, the animus has a new visual model.<br />
+<p align="center"><b>4.15UP Animus Crystal Information:</b></p>
+» When equipped in an ammo slot - increases the damage of the animus depending on the magic damage of the summoner. The percentage is comparable to the damage done by the magic of the fire elite "Meteorit". » Does not affect Innana. » Only active with a staff. » Adds a visual effect.<br/>
+» The animus attack bonus is affected by all of the summoner's magic attack boosts: staff modification with talics of ignorance from +1 to +7, magic buff "Might", jewelry with the "Attack" property, potion with the "Attack" property, weapons/armor/booster with the property "Attack", attack generator.
+<table width="100%">
+    <tr>
+     <th>Isis Bonus</th><th>Hecate Bonus</th><th>Paimon Bonus</th><th>How to get</th><th>Time</th>
+    </tr>
+<tr>
+     <td>10%</td><td>5%</td><td>3%</td><td>NPC price=20kk, CashShop=200BP</td><td>48 hours</td><td> td>
+    </tr>
+    <tr>
+     <td>40%</td><td>20%</td><td>12%</td><td>Drop from "Scud" pitboss in VC and OL locations</td><td>3 hours</td>
+</tr>
+</table><br/>
+
+<br />
+        <font color="white"><b>MAU Pilot (Bellato Race unique class)</b></font>:<br/>
+» Character inside the MAU gains experience. The bonuses from "Battle-EXP jades" do not affect.<br/>
+» Adjusted the cost of repairing a destroyed MAU.<br/>
+» Fixed a bug in the attack animation at the maximum value of the radius.<br/>
+» At levels 60+ and 65+, MAU has a new visual model.<br />
+<p align="center"><b>MAU 4.15UP Generator Information:</b></p>
+» While in the inventory - increases the damage of the Catapult and Goliath MAU, depending on the physical damage of the pilot. » Active with melee or ranged weapons. » Adds a visual effect.<br/>
+» The MAU attack bonus is affected by the following Pilot physical attack buffs: weapon +1 to +7 ignorance talic, jewelry with the "Attack" property, potion with the "Attack" property, weapons/armor/booster with the property "Attack", attack generator.
+<table width="100%">
+    <tr>
+     <th>Character bonus to MAU</th><th>How to get</th><th>Time</th>
+    </tr>
+<tr>
+     <td>10%</td><td>NPC price=20kk, CashShop=200BP</td><td>48 hours</td>
+    </tr>
+    <tr>
+     <td>40%</td><td>Drop from "Scud" pitboss in VC and OL locations</td><td>3 hours</td>
+</tr>
+
+
+</table><br/>
+</div></div></div>
+        
+        <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+Weapon and Armor
+</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+
+
+    Weapons, shields and armor of each level are divided into several grades (types). Each grade can be upgraded to the next without losing a talic and without the risk of being destroyed:</br>
+       Weapon <font color="#FF9">Type B</font> => <font color="orange">Type C</font> => <font color="#069">Type D</font> => <font color="#996">Type Leon</font>.</br> 
+     Armor and shields <font color="#FF9">Type B</font> => <font color="orange">Type C</font> => <font color="#6cf">Type SP</font>.
+       </br></br>
+       <p align="center"><h13><b>WEAPONS, SHIELDS, ARMOR <font color="#FF9">Type B</font></h13></b></p>
+       <font color="#FF9">Type B (Tempered, Int)</font> is the lowest grade of equipment. Has no additional properties. recommended grade for upgrade with talic, due to the least losses in case of failure.
+     
+    <p align="center">
+    <button class="button demobuttons2" data-hystmodal="#modalLong4">How to get weapon, shield and armor &nbsp; <font color="#FF9">Type B</font>&nbsp; grade [click]</button></p>
+       
+     
+     
+     
+          
+       <style type="text/css">
+   TABLE {
+     /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid #361818; /* Прячем рамку вокруг таблицы */
+   }
+  
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 2px solid brown; /* Параметры рамки */
+    text-align: center; /* Выравнивание по левому краю */
+   }
+   TD2, TH2 {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 2px solid yellow; /* Параметры рамки */
+    text-align: center; /* Выравнивание по левому краю */
+   }
+   
+   h13 {
+    font-size: 20px; /* Поля вокруг содержимого таблицы */
+    size: 20px;
+   }
+  </style>
+&nbsp;
+    <p align="center"><b>IMPROVED WEAPON <font color="orange">TYPE С</font>, <font color="#069">TYPE D</font>, <font color="999966">LEON</font></b></p>
+    Weapon <font color="#FF9">Type B</font> is not bad weapon, but also a blank for more powerful weapons. 
+<p align="center">
+     <button class="button demobuttons2" data-hystmodal="#modalLong5">How to create weapon&nbsp; <font color="orange">Type C</font>&nbsp; and &nbsp;<font color="#069">Type D</font>&nbsp; grade [click]</button></p><p align="center">
+    <button class="button demobuttons2" data-hystmodal="#modalLong3">How to create &nbsp; <font color="#996">Weapon Leon</font>&nbsp; [click]</button></p>
+    
+  <p align="left"><b><font color="00ff00">Passive bonuses</font> of weapons <font color="orange">Type C</font> and <font color="#069">Type D</font> grade:</b></p>
+<font color="orange">Type C</font> weapons have base damage like <font color="#FF9">Type B</font> weapons + one of 5 additional properties to choose from.</br>
+Weapons <font color="#069">Type D</font> have base damage like weapons <font color="#FF9">Type B</font> and <font color="orange">Type C</font> font> + one of 5 enhanced properties + 30% increased attack sub-property.
+      
+      
+      
+    <table width="50%" align="left">  
+      <tr>
+     <th>Weapons <font color="orange">Type C</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="orange">[Speed]</font></td><td>Movement speed +1</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Damage]</font></td><td>Attack Increase +10%</td>
+    </tr>
+     <tr>
+     <td><font color="orange">[Vampiric]</font></td><td>Converts 20% damage to HP</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Dodge]</font></td><td>Evasion +10</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Dur.Debuff]</font></td><td>Debuff Duration -20%</br>&nbsp;</td>
+    </tr>
+    </table><table width="50%">
+     <tr>
+     <th>Weapons <font color="#069">Type D</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="#069">[Speed]</font></td><td>Movement speed +1.5</br>Attack increase +30%</td>
+    </tr>
+    <tr>
+     <td><font color="#069">[Damage]</font></td><td>Attack Increase +45%</td>
+    </tr>
+     <tr>
+     <td><font color="#069">[Lifesteal]</font></td><td>Converts 30% damage to HP</br>Attack Increase +30%</td>
+    </tr>
+    <tr>
+     <td><font color="#069">[Dodge]</font></td><td>Evasion +15</br>Attack Increase +30%</td>
+    </tr>
+    <tr>
+     <td><font color="#069">[Dur.Debuff]</font></td><td>Debuff Duration -30%</br>Attack Increase +30%</td>
+    </tr>
+
+   </table>
+  
+    
+     
+   <p align="left"><b><font color="00ff00">Passive bonuses</font> <font color="999966">Weapon Leon</font>: </b></p>   
+   The final creating of the weapon-master <font color="999966">Leon</font>. <font color="999966">Leon's Weapon</font> has 22% increased base damage compared to other weapons, due to this, its damage power is comparable to the weapon 5 levels higher. Each leon has 4 amplifying passive bonuses.
+   
+   
+   </br>
+   <table width="100%">
+  <tr> <th>Properties|Weapon</th>
+   <th>Blade</th><th>Sword</th><th>Axe/Hammer</th><th>Spear</th><th>Bow</th><th>Machine Gun</th> <th>Knife</th><th>Staff</th><th>PU</th><th>Gren</th>
+    </tr>
+    <tr>
+     <td>Movement speed</td><td></td><td>+1.5</td><td>+1.5</td><td>+1.5</td><td></td> <td></td><td>+1.5</td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Crit Chance</td><td>+20%</td><td></td><td>+20%</td><td></td><td></td> <td>+10%</td><td></td><td>+10%</td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Anti-Crit</td><td>+20%</td><td></td><td></td><td></td><td></td><td ></td><td></td><td></td><td>+15%</td><td>+15%</td>
+    </tr>
+    <tr>
+     <td>Max. HP</td><td>+15%</td><td>+15%</td><td></td><td></td><td></td><td>+ 15%</td><td></td><td>+15%</td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Vampric</td><td></td><td></td><td>+30%</td><td></td><td></td><td>+ 15%</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Block Chance</td><td>+10%</td><td></td><td></td><td></td><td></td><td> </td><td>+10%</td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Anti-Block</td><td></td><td></td><td></td><td>+50%</td><td>+50%</td> <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Accuracy</td><td></td><td>+30</td><td></td><td>+30</td><td>+30</td>< td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+     <td>Evasion</td><td></td><td></td><td></td><td></td><td>+20</td><td></ td><td></td><td>+20</td><td>+20</td><td>+20</td>
+    </tr>
+    <tr>
+     <td>Attack Range</td><td></td><td></td><td></td><td></td><td></td><td></td ><td>+20</td><td></td><td></td><td>+20</td>
+    </tr>
+    <tr>
+     <td>Dur.Debuff</td><td></td><td></td><td></td><td></td><td></td><td></ td><td></td><td></td><td>-25%</td><td></td>
+    </tr>
+       <tr>
+     <td>Attack Delay</td><td></td><td></td><td></td><td></td><td>-1s</td><td>- 0.5s</td><td>-1s</td><td></td><td>-0.25s</td><td>-0.25s</td>
+    </tr>
+    <tr>
+     <td>Skill cooldown</td><td></td><td>-2.5s</td><td>-2.5s</td><td>-2.5s</td><td>< /td><td></td><td></td><td>-1.2s</td><td></td><td></td>
+    </tr>
+         </table>&nbsp;
+   
+    
+        <p align="center"><b>IMPROVED ARMOR</font> <font color="orange">TYPE С</font>, <font color="#6cf">TYPE SP</font></b></p>
+    
+  <p align="center">
+     <button class="button demobuttons2" data-hystmodal="#modalLong8">How to create armor&nbsp; <font color="orange">Type C</font>&nbsp; and &nbsp;<font color="#6cf">Type SP</font>&nbsp; grade [click]</button></p>
+    
+    Armor <font color="#FF9">Type B</font> is not bad armor, but also a blank for stronger armor.
+
+    
+<p align="left"><b><font color="00ff00">Passive bonuses</font> of armor <font color="orange">Type C</font> and <font color="#6cf"> Type of SP</font> grade:</b></p>
+Armor <font color="orange">Type C</font> has basic protection like armor <font color="#FF9">Type B</font> + one of 5 additional properties to choose from.</br>
+Armor <font color="#6cf">Type SP</font> has increased defense by +35% and additional defense by 15% compared to armor <font color="#FF9">Type B</font> + one of the 5 enhanced properties + 2% increased attack as an additional property.
+    
+    
+    <table width="50%" align="left">
+     <tr>
+     <th>Armor <font color="orange">Type C</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="orange">[Crit]</font></td><td>Crit Chance +8%(40%)</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Damage]</font></td><td>Attack Increase +5%(20%)</td>
+    </tr>
+     <tr>
+     <td><font color="orange">[Vampiric]</font></td><td>Converts 4% damage to HP(20%)</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Defense]</font></td><td>Defense increase +10%(50%)</br>&nbsp;</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Vitality]</font></td><td>Max HP +10%(50%)</br>&nbsp;</td>
+    </tr>
+    </table><table width="50%">
+     <tr>
+     <th>Armor <font color="#6cf">Type SP</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Crit]</font></td><td>Critical Chance +8%(40%)</br>Attack Increase +2%(10%)</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Damage]</font></td><td>Attack Increase +7%(35%)</td>
+    </tr>
+     <tr>
+     <td><font color="#6cf">[Vampiric]</font></td><td>Convert 4% damage to HP(20%)</br>Attack Increase +2%(10%)</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Defense]</font></td><td>Defense increase +10%(50%)</br>Attack increase +2%(10%)</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Vitality]</font></td><td>Max HP +10%(50%)</br>Attack Increase +2%(10%)</td>
+    </tr>
+    </table>
+    
+    
+&nbsp;
+    
+          <p align="center"><b>IMPROVED SHIELD <font color="orange">TYPE С</font>, <font color="#6cf">TYPE SP</font></b></p>
+    <p align="center">
+     <button class="button demobuttons2" data-hystmodal="#modalLong9">How to create shield&nbsp; <font color="orange">Type C</font>&nbsp; and &nbsp;<font color="#6cf">Type SP</font>&nbsp; grade [click]</button></p>
+    Shield <font color="#FF9">Type B</font> is not bad shield, but also a blank for stronger shields.
+
+    
+<p align="left"><b><font color="00ff00">Passive bonuses</font> of shields <font color="orange">Type C</font> and <font color="#6cf"> Type of SP</font> grade:</b></p>
+The <font color="orange">Type C</font> shield has the basic protection of the <font color="#FF9">Type B</font> shield + one of 5 additional properties to choose from.</br>
+Shield <font color="#6cf">Type SP</font> has increased defense by +20% + one of 5 improved additional properties.
+ <table width="50%" align="left">
+     <tr>
+     <th>Shield <font color="orange">Type C</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="orange">[Anticrit]</font></td><td>Enemy Crit Chance -20%</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Block Chance]</font></td><td>Chance to block attack +5%</td>
+    </tr>
+     <tr>
+     <td><font color="orange">[Dur.Debuff]</font></td><td>Debuff Duration -20%</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Defense]</font></td><td>Defense increase +13%</td>
+    </tr>
+    <tr>
+     <td><font color="orange">[Vitality]</font></td><td>Max HP +10%</td>
+    </tr>
+    </table><table width="50%">
+     <tr>
+     <th>Shield <font color="#6cf">Type SP</font></th><th>Bonuses</th>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Anticrit]</font></td><td>Enemy Crit Chance -30%</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Block Chance]</font></td><td>Chance to block attack +8%</td>
+    </tr>
+     <tr>
+     <td><font color="#6cf">[Dur.Debuff]</font></td><td>Debuff Duration -30%</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Defense]</font></td><td>Defense increase +20%</td>
+    </tr>
+    <tr>
+     <td><font color="#6cf">[Vitality]</font></td><td>Max HP +15%</td>
+    </tr>
+    </table>
+    
+    
+    </div></div></div>
+ 
+ 
+   <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+Rings and Amulets
+</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+Jewelry in RF Online is equipment that gives bonuses to the main characteristics of the character or the strength of the weapons and armor worn. There are 4 types of jewelry on the RF Banana server</br></br>
+
+        Adventurer's Jewelry:</br>
+        <font color="00ff00"><b>Passive bonus</font></b>: Attack +10%, Max HP +10%</br>
+        <font color="white"><b>Important Information</font></b>: The level limit has been removed. Disappears 7 days after purchase.</br>
+<font color="white"><b>How to get</font></b>: CashShop Price = 150 Banana Points</br></br>
+
+
+     Elemental Jewelry:</br>
+<b><font color="00ff00">Passive bonus</font></b>:</br>
+» Race Cora: amulets have 2 stats, rings have only 1 stat. </br>Lower grade: 10% Attack, 5% Defense, 5 Acc. Highest grade: 30% Attack, 25% Defense, 25 Strength</br>
+» Race Bellato: amulets only have 1 stat, rings have 2 stats. </br>Lower grade: 5% Attack, 10% Defense, 5 Acc. Highest grade: 25% Attack, 30% Defense, 25 Strength</br>
+» Race Akretiya: amulets and rings have 2 characteristics. </br>Lower grade: 10% Attack, 10% Defense, 5 Acc. Highest grade: 30% Attack, 30% Defense, 25 pt.</br>
+<font color="white">
+<b>How to get</font></b>:</br>
+»The lowest grade of Elemental Jewelry is available for sale from NPCs for 3kk race currency.</br>
+»Intermediate grades can be obtained as a reward for a quest, a dungeon or a pit boss.</br>
+»The highest grade (overperf, H55) can be obtained for killing pit bosses and from giant flem boxes</br>
+<font color="white"><b>Elemental Jewelry Upgrade Information 10%>15%>20%>25%>26%>27%>28%>29%>30%</b></font> </br>
+»A modification is available from the lowest grade to the highest. <b>50% success rate</b> regardless of grade.</br>
+»To modify, combine at NPC Hero: jewelry, 2x5 T3 stones and 5 talics per property.</br>
+»Successful modification from 10% to 25% adds +5% to properties. Adds +1% from 25% to 30%.</br>
+»With an unsuccessful combination, any materials can be destroyed, including jewelry.</br>
+»Talic Keen for the Attack property. Talic Favor for protection. Talic Mercy for Evasion.
+  <table width="100%">
+     <tr>
+     <th>Property</th><th>2 material</th><th>3 material</th><th>4 material</th><th>5 material</th>
+    </tr>
+    <tr>
+     <td>Attack/Defense</td><td>5 Talic Favor</td><td>5 Talic Keen</td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr>
+    <tr>
+     <td>Attack/Evasion</td><td>5 Talic Keen</td><td>5 Talic Mercy</td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr>
+    <tr>
+     <td>Defense/Evasion</td><td>5 Talic Favor</td><td>5 Talic Mercy</td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr>
+    <tr>
+     <td>Attack</td><td>5 Talic Keen</td><td></td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr>
+    <tr>
+     <td>Defense</td><td>5 Talic Favor</td><td></td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr>
+    <tr>
+     <td>Evasion</td><td>5 Talic Mercy</td><td></td><td>5 T3 Stones</td><td>5 T3 Stones</td>
+    </tr></table>
+    </br>
+       DarkHole Jewelry:</br>
+        <font color="white"><b>Important information</font></b>: »There are no lower grades. »Has bonuses when collecting set parts.</br>
+»Give the hero jewelry and 20kk race currency to get a re-roll box.</br>
+<font color="white"><b>How to get</font></b>: »For completing the DarkHole dungeon level 50-70. »From the giant flym boxes.</br>
+»For winning the weekly event "Chipbreaker" in your race during the week with the largest number of lasthits terminals in the ChipWar.</br>
+<b><font color="00ff00">Passive bonus</font></b>:</br>
+       <table width="100%" align="left"><tr>
+     <th>Misty Ring and Mutant Amulet</th>
+    </tr></table></br>
+         <table width="50%" align="left">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +25%</td><td>Defense +25%</td>
+    </tr></table>
+    <table width="50%">
+    <tr>
+     <th>Accretia</th><td>Attack +30%</td><td>Defense +30%</td>
+    </tr></table>
+<table width="100%" align="left"><tr>
+     <td>Set bonuses: 2 items +25% defense, 4 items +25% attack</td>
+    </tr></table></br></br>
+    <table width="100%" align="left"><tr>
+     <th>Queen's Ring and Vampire Amulet</th>
+    </tr></table></br>
+         <table width="50%" align="left">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +30%</td><td>Vampiric +5%</td>
+    </tr></table>
+    <table width="50%">
+    <tr>
+     <th>Accretia</th><td>Attack +30%</td><td>Lifesteal +5%</td>
+    </tr></table>
+<table width="100%" align="left"><tr>
+     <td>Set Bonuses: 2P +20 Attack Range, 4P +7% Lifesteal</td>
+    </tr></table></br></br>
+   
+   
+   
+<table width="100%" align="left"><tr>
+     <th>Dragon Amulet</th>
+    </tr></table></br>
+         <table width="50%" align="left">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +25%</td><td>Accuracy +20</td>
+    </tr></table>
+    <table width="50%">
+    <tr>
+     <th>Accretia</th><td>Attack +30%</td><td>Accuracy +25</td>
+    </tr></table>
+<table width="100%" align="left"><tr>
+     <td>Set Bonuses: 2P +15% Attack</td>
+    </tr></table></br></br>
+   
+   
+<table width="100%" align="left"><tr>
+     <th>Ring of Baal Hamon</th>
+    </tr></table></br>
+         <table width="50%" align="left">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +25%</td><td>Evasion +20</td>
+    </tr></table>
+    <table width="50%">
+    <tr>
+     <th>Accretia</th><td>Attack +30%</td><td>Evasion +25</td>
+    </tr></table><table width="100%" align="left"><tr>
+     <td>Set bonuses: 2 items +20% attack and 15% max HP</td>
+    </tr></table></br></br>
+   
+   
+<table width="100%" align="left"><tr>
+     <th>Memory Ring and Amulet of the Storm</th>
+    </tr></table></br>
+    <table width="15%" align="left">
+    <tr>
+     <th>Ring</th>
+    </tr></table>
+         <table width="85%">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +25%</td><td>Accuracy +20</td>
+     <th>Accretia</th><td>Attack +30%</td><td>Accuracy +25</td>
+    </tr></table>
+    <table width="15%" align="left">
+    <tr>
+     <th>Amulet</th>
+    </tr></table>
+         <table width="85%">
+    <tr>
+     <th>Cora and Bellato</th><td>Attack +25%</td><td>Evasion +20</td>
+     <th>Accretia</th><td>Attack +30%</td><td>Evasion +25</td>
+    </tr></table>
+<table width="100%" align="left"><tr>
+     <td>Set Bonuses: 2P -0.6s Melee Skill Cooldown, 4P +15% Attack</td>
+    </tr></table></br>
+
+        
+</div></div></div>
+          <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+Boosters and Cloaks
+</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+     There are 3 types of Boosters on the Banana RF server.</br></br>
+       
+        Black Premium Cloak</br>
+        » <font color="ffcc00">Model</font>: Black cloak with visual effects.</br>
+        » <font color="00ff00">Passive bonus</font>: Anticrit +10%</br>
+        <font color="white">How to get</font>:</br>
+        » Instantly issued upon entering a character level 1-55 with Premium status.</br>
+» Deleted when you exit the game</br></br>
+
+        Race Leader Cloak</br>
+        » <font color="ffcc00">Model</font>: Racial emblem cloak.</br>
+        » <font color="00ff00">Passive bonuses</font>: Anticrit +40%, Movement speed +1, Attack +25%</br>
+      
+<font color="white">How to get</font>:</br>
+        » Open combinations on the table with the hero [Coupon]Officer's Cloak</br>
+<font color="white">Important Information</font>:</br>
+        » Coupon price: CashShop 100 BP, in-game NPCs 1000 gold points or 30k racial currency</br>
+» The cloak is removed 48 hours after the opening of the coupon.</br>
+        » Available only to the Patriarch, 4 chosen and 4 appointed officers of the race!!! Do not open the coupon if you are not authorized</br>
+</br></br>
+
+        Craft anti-grav 40-70 levels</br>
+        » <font color="ffcc00">Models</font>: Booster 40+ lvl, golden Booster 50+ lvl, Booster beelzebub 60+ lvl.</br>
+» <font color="00ff00">Passive bonuses</font>:
+Level 40 Booster = Anticrit +10%.
+Level 45 Booster = Anticrit +15%.</br>
+Level 50 Booster = Anticrit +20%.
+Level 55 Booster = Anticrit +20%, Attack +10%.</br>
+Level 60 Booster = Anticrit +20%, Attack +10%, Movement Speed +0.5.</br>
+Level 63 Booster = Anticrit +20%, Attack +15%, Movement Speed +0.5.</br>
+Level 65 Booster = Anticrit +20%, Attack +20%, Movement Speed +0.5.</br>
+Level 67 Booster = Anticrit +20%, Attack +25%, Movement Speed +0.7.</font></br>
+
+<font color="white">How to get</font>:</br>
+» Successfully combo the hero's combinations on the table Main item + Materials</br>
+<p align="center"><b>Table for crafting level 40-70 antigravs</b></p>
+   <table width="100%">
+     <tr>
+     <th>Crafted on Success</th><th>From</th><th>Main Item</th><th>+</th><th>Materials</th><th>Cost</th><th>Chance</th>
+    </tr>
+    <tr>
+     <td>Booster lvl 40</td><td>from</td><td>"Inventory bag" item</td><td>+</td><td>x1 Olive Excelsior A</td><td> 9kk</td><td>20%</td>
+    </tr>
+    <tr>
+     <td>Booster lvl 40</td><td>from</td><td>"Inventory bag" item</td><td>+</td><td>x1 Olive Excelsior B</td><td> 15kk</td><td>40%</td>
+    </tr>
+     <tr>
+     <td>Booster 40lvl</td><td>of</td><td>"Inventory bag" item</td><td>+</td><td>x1 Olive Excelsior C</td><td> 22kk</td><td>60%</td>
+    </tr>
+       <tr>
+     <td>Booster 45lvl</td><td>from</td><td>Booster 40lvl</td><td>+</td><td>x1 Olive Excelsior A</td><td>9kk< /td><td>20%</td>
+    </tr>
+    <tr>
+     <td>Booster 45lvl</td><td>from</td><td>Booster 40lvl</td><td>+</td><td>x1 Olive Excelsior B</td><td>15kk< /td><td>40%</td>
+    </tr>
+     <tr>
+     <td>Booster 45lvl</td><td>from</td><td>Booster 40lvl</td><td>+</td><td>x1 Olive Excelsior C</td><td>22kk< /td><td>60%</td>
+    </tr>
+          <tr>
+     <td>Booster 50lvl</td><td>from</td><td>Booster 45lvl</td><td>+</td><td>x3 Olive Excelsior A</td><td>9kk< /td><td>20%</td>
+    </tr>
+    <tr>
+     <td>Booster 50lvl</td><td>from</td><td>Booster 45lvl</td><td>+</td><td>x3 Olive Excelsior B</td><td>15kk< /td><td>40%</td>
+    </tr>
+     <tr>
+     <td>Booster 50lvl</td><td>from</td><td>Booster 45lvl</td><td>+</td><td>x3 Olive Excelsior C</td><td>22kk< /td><td>60%</td>
+    </tr>
+          <tr>
+     <td>Booster 55lvl</td><td>from</td><td>Booster 50lvl</td><td>+</td><td>x5 Olive Excelsior A</td><td>9kk< /td><td>20%</td>
+    </tr>
+    <tr>
+     <td>Booster 55lvl</td><td>from</td><td>Booster 50lvl</td><td>+</td><td>x5 Olive Excelsior B</td><td>15kk< /td><td>40%</td>
+    </tr>
+     <tr>
+     <td>Booster 55lvl</td><td>from</td><td>Booster 50lvl</td><td>+</td><td>x5 Olive Excelsior C</td><td>22kk< /td><td>60%</td>
+    </tr>
+          <tr>
+     <td>Booster 60lvl</td><td>from</td><td>Booster 55lvl</td><td>+</td><td>x10 Olive Excelsior A</td><td>9kk< /td><td>20%</td>
+    </tr>
+    <tr>
+     <td>Booster 60lvl</td><td>from</td><td>Booster 55lvl</td><td>+</td><td>x10 Olive Excelsior B</td><td>15kk< /td><td>40%</td>
+    </tr>
+     <tr>
+     <td>Booster 60lvl</td><td>from</td><td>Booster 55lvl</td><td>+</td><td>x10 Olive Excelsior C</td><td>22kk< /td><td>60%</td>
+    </tr>
+    <tr>
+     <td>Booster 63lvl</td><td>from</td><td>Booster 60lvl</td><td>+</td><td>Clear Crystal[quest]</td><td>100kk </td><td>100%</td>
+    </tr>
+    <tr>
+     <td>Booster lvl 65</td><td>from</td><td>Booster lvl 63</td><td>+</td><td>White crystal[quest]</td><td>100kk </td><td>100%</td>
+    </tr>
+     <tr>
+     <td>Booster 67lvl</td><td>From</td><td>Booster 65lvl</td><td>+</td><td>Gold Crystal [quest]</td><td>100kk </td><td>100%</td>
+    </tr>
+    </table>
+    <font color="white">Important information</font>:</br>
+» "Main item" can't burn if combination fail, only "materials".</br>
+» Can be enchanted with Chaos Talics to gain a bonus to Anti-Crit.</br>
+» Safe enchant +3 Chaos. Bonus Anticrit from +1=10%,+2=15%,+3=20%,+4=25%,+5=30%,+6=35%.</br>
+» With a successful combination to the next level, the talic upgrade is saved.</br>
+» The number of talic sockets is saved and 1 talic slot is added every recraft.</br>
+» Pieces of shavings and the "inventory" item are sold at the HQ at the NPC Banana Trader.</br>
+         <p align="center"><font color="white"><b>RF Online Olive Excelsior Creation</b></font></p>
+        <table width="100%">
+    <tr>
+    <th>Ready Excelsior</th><th>by</th><th>Olive Pieces</th><th>+</th><th>Silver Catalyst</th><th>+</th><th>Gold Catalyst</th><th>Chance</th>
+   </tr>
+   <tr>
+    <td>Olive Excelsior A</td><td></td><td>10</td><td>+</td><td>5</td><td>+</td><td>2</td><td>70%</td>
+   </tr>
+   <tr>
+    <td>Olive Excelsior A</td><td></td><td>15</td><td>+</td><td>12</td><td>+</td><td>5</td><td>50%</td>
+   </tr>
+    <tr>
+    <td>Olive Excelsior C</td><td></td><td>30</td><td>+</td><td>20</td><td>+</td><td>10</td><td>30%</td>
+   </tr>
+   </table>    </div></div></div>  <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+ Information about banana points and premium status
+</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+       You can <a href="https://cp.rfbanana.ru/donatesupport.php" style="color:yellow;" target="_blank">donate</a> to support the project and instantly get Banana Points in game CashShop.<br>Convert rate: 1$ donate = 225 BP.<br>Payment systems: UnitPay, Paypalych, Webmoney.
+    </br>
+    </br>
+    
+                <button class="button demobuttons" data-hystmodal="#modalLong">CashShop</button>
+                    
+    </br>
+       Upon entering the game with Premium status, useful items are instantly issued:
+<br />
+<font color="orange">Black Cloak</font>: 1-55 lvl. Active skill "Booster". Passive bonus 10% anti-crit.
+<br/>
+<font color="orange">Premium Blade</font>: 1-70 lvl. Passive bonus 1.5 movement speed.
+<br/>
+<font color="orange">All-in-One Charm</font>: 1-70lvl. <br/>
+"<font color='ffcc00'>Autoloot</font>" gives you an instant pickup of all items in the inventory after the death of the monster.<br/>
+"<font color='ffcc00'>Charm of Speed</font>" Passive bonus +2 character movement speed.<br/>
+"<font color='ffcc00'>Charm of Purification</font>" Passive bonus -30% to the duration of debuffs from enemies.<br/>
+"<font color='ffcc00'>Charm of Regeneration</font>" Passive bonus +5%/sec regeneration from max HP.<br/>
+"<font color='ffcc00'>Leader's Charm</font>" Passive bonus +5 to party level for invitation.<br/>
+Consolidated Charm passive bonuses do not stack with NPC Charm bonuses.
+<br/>
+More information about premium and Banana points <a href="https://rfbanana.com/rf/premium">link</a>
+        </div></div></div>
+       
+
+       <div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        In development</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+       In development
+    </br>
+    </br>
+    
+               
+               
+        
+        
+        
+        
+        
+        
+        </div></div></div><div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        In development</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+       In development
+    </br>
+    </br>
+    
+               
+               
+        
+        
+        
+        
+        
+        
+        </div></div></div><div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        In development</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+       In development
+    </br>
+    </br>
+    
+               
+               
+        
+        
+        
+        
+        
+        
+        </div></div></div><div class="Faq__item__3ZLNR"><button class="Faq__itemTitle__3vsES"><div class="Faq__itemTitleInner__20i8l">
+        
+        What are the requirements to&nbsp;run the game on&nbsp;my&nbsp;PC?</div><img src="..\..\v1.0.238\02bb2796e1c586fb1965bf8cc5ea37e5.svg" class="Faq__arrow__z3lJj"></button><div class="Faq__itemContent__3Lshm" style="height:0"><div class="Faq__itemContentInner__3cTZd">
+        &emsp;&mdash;&emsp;Operational system: Microsoft Windows&nbsp;11&nbsp;/Microsoft Windows&nbsp;10&nbsp;/ Microsoft Windows 7&nbsp;/ Microsoft Windows 8-8.1 <br>&emsp;&mdash;&emsp;Processor: Pentium&nbsp;/ Athlon&nbsp;2.0&nbsp;GHz and above<br>&emsp;&mdash;&emsp;Working memory: not less than 1&nbsp;GB<br>&emsp;&mdash;&emsp;Internet: Lan cable recommended for full FPS 3D real-time play from any point of world! Enjoy!</div></div></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </section></div><div id="page-footer" class="Footer__container__3i8s5 Footer__theme-dark__Hctun Footer__bottom__2t4Sn Footer__container__3tj1E"><div class="Footer__wrapper__btMNq"><div class="Footer__leftCol__DNFaE"><div class="Footer__socials__3TeN8"></div></div><div class="Footer__centerCol__IFL5c"><nav class="Footer__nav__1Nag4"><li class="Footer__navItem__ZcYgo"><a class="Footer__navLink__1SxnQ" href="https://discord.gg/jMXjn6k" data-name="news" rel="noreferrer noopener" target="_blank">news</a></li><li class="Footer__navItem__ZcYgo"><a class="Footer__navLink__1SxnQ" data-name="privacy" href="https://rfbanana.com/rf/info/index.htm">*</a></li><li class="Footer__navItem__ZcYgo"><a class="Footer__navLink__1SxnQ" data-name="legal" href="https://rfbanana.com/rf/info/index.htm">*</a></li><li class="Footer__navItem__ZcYgo"><a class="Footer__navLink__1SxnQ" href="https://community.rfbanana.ru/" data-name="forum" rel="noreferrer noopener" target="_blank">forum</a></li><li class="Footer__navItem__ZcYgo"><a class="Footer__navLink__1SxnQ" href="https://discord.gg/jMXjn6k" data-name="support" rel="noreferrer noopener" >discord</a></li></nav><div class="Footer__copyright__188Fa">&copy;&nbsp;2019-2023, RF Banana Project<br>&copy;&nbsp;2004-2016, CCR</div><div><nav class="Footer__pegi__C9EfE"><a target="_blank" href="https://pegi.info/what-do-the-labels-mean" rel="noreferrer noopener"><img class="Footer__pegiIcon__1InEF" src="..\..\frontend\frontend\pegi_icons\age-16.png"></a><a target="_blank" href="https://pegi.info/what-do-the-labels-mean" rel="noreferrer noopener"><img class="Footer__pegiIcon__1InEF" src="..\..\frontend\frontend\pegi_icons\violence.png"></a><a target="_blank" href="https://pegi.info/what-do-the-labels-mean" rel="noreferrer noopener"><img class="Footer__pegiIcon__1InEF" src="..\..\frontend\frontend\pegi_icons\sexual-content.png"></a><a target="_blank" href="https://pegi.info/what-do-the-labels-mean" rel="noreferrer noopener"><img class="Footer__pegiIcon__1InEF" src="..\..\frontend\frontend\pegi_icons\gambling.png"></a></nav></div></div><div class="Footer__rightCol__3zQDj"><div class="LanguageSelector__container__K2u-6 Footer__languages__354GL LanguageSelector__theme-dark__2hgZ1"><div class="LanguageSelector__selected__PFYBO"><img class="LanguageSelector__flagIcon__1rutC" src="..\..\frontend\frontend\flags\EU.svg" alt="EU" width="21" height="15"> <i class="Icon__Icon__3xFLV LanguageSelector__triangle__2R0Fv"><svg class="Icon__theme-dark__3TvxY" width="12" height="7" viewbox="0 0 12 7"><path d="M.738 0L0 .862 6 7l6-6.138L11.171 0 6 5.495z" fill-rule="evenodd"></path></svg></i></div></div></div></div></div></div></div></div> 
+
+  <div class="hystmodal" id="modalSimple" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div style="display : inline">
+                    <div class="h1"><center><font color=#ffffff>RF Banana game client<br/>Date 21.05.2024. Version 1.0.5.0. Size 1.4gb</center></font></div>
+                    <p style="hystmodal__styled .p52"><center><br/><a href=https://rfbanana.com/gg target="_blank"> GoogleDrive&nbsp;</a> <a href=https://rfbanana.com/mg target="blank">&nbsp;MEGA&nbsp;</a> <a href=https://rfbanana.com/mf target="_blank">&nbsp;&nbsp;&nbsp;MediaFire</a></center></p>
+                      <p style="hystmodal__styled .p52"><center><a href=https://rfbanana.com/gg target="_blank"><img src="https://rfbanana.ru/images/google.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href=rfbanana.com/mg target="blank"><img src="https://rfbanana.ru/images/mega.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a href=https://rfbanana.com/mf target="_blank"><img src="https://rfbanana.ru/images/mediafire.jpg"></a></center></p>
+                       <p><center><font color=#ffffff size=3>After download - unpack files from archive to any folder and start bananarfo.exe launcher. Recommend folder C:bananarfo</font></center></p><br/>
+                    <p><center><font color=#ffffff size=3> If bananarfo.exe not started - install visualstudioc++.exe drivers pack from TrustedDrivers folder and try again</font></center></p><br/>
+                    <p><center><font color=#ffffff size=3> Found fix any other problem with login or join rfbanana community - you could inside our <a href=https://discord.gg/jMXjn6k target="_blank">Discord</a> channel</font></center></p>
+                     <p style="float:left"></p></div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  
+    <div class="hystmodal hystmodal--simple" id="modalLong3" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+          <p align="center"><b>How to create <font color="#996">Leon's Weapon</font>?</b></p>
+     To create <font color="#996">Leon's Weapon</font>, you need to combine 3 Hero weapons <font color="#069">Type D</font>.<br>
+All 3 <font color="#069">Type D</font> weapons must have the following parameters identical:<br>
+1. Number of slots. 2. The number of talics and their color. 3. Weapon level <font color="#069">Type D</font>. 4. Weapon class <font color="#069">Type D</font>.<br><br>
+<font color="#069">Type D</font> overlapping weapon levels: 50=50, 53+55=55, 57+60=60, 63+65=65, 67+70=70.< br>
+Combining <font color="#069">Type D</font> weapon classes: Staff(mage) or Rocket launcher+grenade launcher(pu) or Blade+Sword+Spear+Hammer+Axe(melee) or Bow+Machine gun +Knife(ranged).<br>
+The level of <font color="#996">Leon</font> depends on the level of the weapon <font color="#069">Type D</font>. The <font color="#996">Leona</font> class depends on the weapon class <font color="#069">Type D</font>.<br>
+The number of talics is saved. Success rate 100%
+</div>
+<div class="h3"> <p align="center"><b>Examples of combinations to create <font color="#996">Leon's weapons</b></font></p>
+     <table width="100%">
+     <tr>
+     <th>Materials Type D</th><th>Result</th>
+    </tr>
+    <tr>
+     <td></br><font color="#069" >[TypeD][Speed]Sagan Wing[63]+6</font></br>+</br><font color="#069" >[TypeD][Attack]Holy Gatling[65]+6</font></br>+</br><font color="#069" >[TypeD][Dodge]Sagan Wing[63]+6< /font></td><td><font color="#996" >[Leon]Range Weapon[65]+6</font></td>
+    </tr>
+    <tr>
+     <td></br><font color="#069" >[TypeD][Attack]Patron Bow[70]+6</font></br>+</br><font color="#069" >[TypeD][Attack]Patron's Bow[70]+6</font></br>+</br><font color="#069" >[TypeD][Dodge]Patron's Gatling[70]+6< /font></td><td><font color="#996" >[Leon]Range Weapon[70]+6</font></td>
+    </tr>
+     <tr>
+     <td></br><font color="#069" >[Type D][Dur.Debuff] Blade of History[53]+4</font></br>+</br><font color="# 069" >[TypeD][Dodge]Blade of History[53]+4</font></br>+</br><font color="#069" >[TypeD][Attack]Dark Lightsaber[55] +4</font></td><td><font color="#996" >[Leon]Close Weapon[55]+4</font></td>
+    </tr>
+    <tr>
+     <td></br><font color="#069" >[TypeD][Speed]Hora Spear[50]+5</font></br>+</br><font color="#069" >[TypeD][Vampiric]Hora Sword[50]+5</font></br>+</br><font color="#069" >[TypeD][Speed]Hora Hammer[50]+ 5</font></td><td><font color="#996" >[Leon]Close Weapon[50]+5</font></td>
+    </tr>
+    <tr>
+     <td></br><font color="#069" >[Type D][Attack]Staff of the Patron[70]+7</font></br>+</br><font color="#069" >[TypeD][Attack]Improved Staff[67]+7</font></br>+</br><font color="#069" >[TypeD][Vampiric]Staff of the Patron[70]+7< /font></td><td><font color="#996" >Scooter with delivery</font></td>
+    </tr>
+       <tr>
+     <td></br><font color="#069" >[TypeD][Vampirism]Hora Staff[50]+4</font></br>+</br><font color="#069" >[TypeD][Attack]Hora Staff[50]+4</font></br>+</br><font color="#069" >[TypeD][Vampiric]Hora Staff[50]+4< /font></td><td><font color="#996" >[Leon]Staff[50]+4</font></td>
+    </tr>
+    <tr>
+     <td></br><font color="#069" >[Type D][Dur.Debuff] Selene Flamethrower[57]+5</font></br>+</br><font color="# 069" >[TypeD][Speed]Divine Grenade[60]+5</font></br>+</br><font color="#069" >[TypeD][Attack]Divine Grenade[60]+ 5</font></td><td><font color="#996" >[Leon]Launcher[60]+5</font></td>
+    </tr>
+     </table>
+          
+          
+          </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <div class="hystmodal hystmodal--simple" id="modalLong4" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+          <p align="center"><b>How to get equipment <font color="#FF9">Type B</font>?</b></p>
+When killing any monster, starting from the "Sette Desert" location, there is a chance to get a box with weapon or armor, which drop a weapon <font color="#FF9">Type B</font> or armor <font color="# FF9">Type B</font> for your own race only. Boxes stack in inventory to save space.</br>
+<details><summary>Equip level close to minimum monster level <font color="white">=>[Open spoiler with examples]</font> </summary>
+Examples of matching monster level and equipment level:</br>
+Example 1: Caliana Warrior (Eter) is most relevant for gaining experience for a character of level 37-40, so when she is killed, there is a chance to get a level 40 weapon, as well as a 37-39 armor or shield.</br>
+Example 2: Giant Baba (Cauldron) is most relevant for gaining experience for a level 46-49 character, so when he is killed, there is a chance to get a level 45-50 weapon, as well as a 47-50 armor or shield.</br>
+Example 3: Traitor (Sette Desert) is most relevant for gaining experience for a level 33-36 character, so when he is killed, there is a chance to get a level 35 weapon, as well as a 33-35 armor or shield.</details>
+</br>
+<p align="center"><b>Where can I get the level of <font color="#FF9">Type B</font> gear I need?</b></p>
+          
+          
+       <table width="100%">
+    <tr>
+     <th>Location</th><th>Weapon <font color="#FF9">Type B</font></th><th>Armor <font color="#FF9">Type B</font ></th>
+    </tr>
+    <tr>
+     <td>At character creation</td><td>Level 1-30</td><td>Level 1-10</td>
+    </tr>
+     <tr>
+     <td>Quests in HQ and Outposts</td><td></td><td>Levels 13-27</td>
+    </tr>
+     <tr>
+     <td>Sete Desert</td><td>Level 35</td><td>Level 33-35</td>
+    </tr>
+     <tr>
+     <td>Ether</td><td>Level 35-40</td><td>Level 35-43</td>
+    </tr>
+     <tr>
+     <td>Cauldron</td><td>Level 40-50</td><td>Level 41-47</td>
+    </tr>
+      <tr>
+     <td>Elan</td><td>Level 45-50</td><td>Level 45-50</td>
+    </tr>
+     <tr>
+     <td>Elven Land</td><td>Level 50-55</td><td>Level 50-55</td>
+    </tr>
+     <tr>
+     <td>Beast Mountains</td><td>Level 50-57</td><td>Level 50-57</td>
+    </tr>
+     <tr>
+     <td>Outcast Land</td><td>Level 50-60</td><td>Level 50-60</td>
+    </tr>
+     <tr>
+     <td>Jetso Island</td><td>Level 63-70</td><td>Level 63-70</td>
+    </tr>
+     <tr>
+     <td>Pitboss in HQ and Outposts</td><td>Level 50-60</td><td>-</td>
+    </tr>
+     <tr>
+     <td>Pitboss Belphegor and Caliana</td><td>Level 60-65</td><td>-</td>
+    </tr>
+     <tr>
+     <td>Pitboss Dragon and Blood Axe</td><td>Level 63-67</td><td>-</td>
+    </tr>
+     <tr>
+     <td>Elan's pitboss (except DDD)</td><td>Level 65-70</td><td>Level 65-70</td>
+    </tr>
+     <tr>
+     <td>Pitboss Dagon, Dagan, Dagnu</td><td>Level 70</td><td>Level 70</td>
+    </tr>
+    <tr>
+     <td>NPCs in HQ by race currency</td><td>Level 35-70</td><td>Level 29-70</td>
+    </tr>
+     </table>
+          
+          </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <div class="hystmodal hystmodal--simple" id="modalLong5" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+          <p align="center"><b>How to create weapons <font color="orange">Type C</font> and <font color="#069">Type D</font> grade?</b></p>
+To improve the grade of equipment, you need to combine at NPC Hero "Main item" and "Material".</br></br>
+The main item for creating a Type C weapon is a Type B weapon. The material is a Type A weapon, not modified with talics. Type A weapons from level 35 to level 70 are sold by NPCs at the HQ.</br></br>
+
+The main item for crafting a Type D weapon is a Type C weapon. The material is Leon Tokens. Leon tokens can be obtained for completing any quests and dungeons from level 50 to 70. WARNING: Type D weapons and Leon's Tokens are non-tradable items.</br></br>
+Combination Features:</br>
+The "Main Item" cannot be destroyed if the combo fails, only the "Materials".</br>
+"Main item" saves the number of talics in the new item after a successful combo.</br>
+The weapon property <font color="orange">Type C</font> depends on the property in the weapon <font color='1560bd'>Type A</font>. The property is saved when creating <font color="#069">Type D</font>.</br>&nbsp;
+
+      <table width="100%">
+    <th>Main Item</th><th>Material</th><th>Chance</th><th>Result</th>
+    <tr>
+     <td>Weapon <font color="#FF9">Type B</font> Level 35-45 +0~+7</td><td>Weapon <font color='1560bd'>Type A</font> Level 35-45 +0</td><td>100%</td><td>Weapon <font color="orange">Type C</font> Level 35-45</td>
+    </tr>
+    <tr>
+     <td>Weapon <font color="#FF9">Type B</font> Level 50-70 +0~+7</td><td>Weapon <font color='1560bd'>Type A</font> Level 50-70 +0</td><td>40%</td><td>Weapon <font color="orange">Type C</font> Level 50-70</td>
+    </tr>
+    <tr>
+     <td>Weapon <font color="orange">Type C</font> Level 50 +0~+7</td><td>Leon Token x1 pcs</td><td>30%</td>< td>Weapon <font color="#069">Type D</font> level 50</td>
+    </tr>
+       <tr>
+     <td>Weapon <font color="orange">Type C</font> Level 53-55 +0~+7</td><td>Leon Token x5 pcs</td><td>30%</td ><td>Weapon <font color="#069">Type D</font> level 53-55</td>
+    </tr>
+       <tr>
+     <td>Weapon <font color="orange">Type C</font> Level 57-60 +0~+7</td><td>Leon Token x15 pcs</td><td>30%</td ><td>Weapon <font color="#069">Type D</font> level 57-60</td>
+    </tr>
+    <tr>
+     <td>Weapon <font color="orange">Type C</font> Level 63-65 +0~+7</td><td>Leon Token x30 pcs</td><td>30%</td ><td>Weapon <font color="#069">Type D</font> level 63-65</td>
+    </tr>
+       <tr>
+     <td>Weapon <font color="orange">Type C</font> Level 67-70 +0~+7</td><td>Leon Token x50 pcs</td><td>30%</td ><td>Weapon <font color="#069">Type D</font> level 67-70</td>
+    </tr>
+     </table>
+          
+          </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="hystmodal hystmodal--simple" id="modalLong9" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+          <p align="center"><b>How to create shield <font color="orange">Type C</font> and <font color="#6cf">Type SP</font> grade?</b> </p>
+
+To improve the grade of equipment, you need to combine at NPC Hero "Main item" and "Material".</br></br>
+The base item for creating the <font color="orange">Type C</font> shield is the <font color="#FF9">Type B</font> shield. The material is a shield <font color='1560bd'>Type A</font>, not modified with talics. Shields <font color='1560bd'>Type A</font> from level 39 to 70 are sold by NPCs in HQ.</br></br>
+
+The base item for creating the shield <font color="#6cf">Type SP</font> is the shield <font color="orange">Type C</font>. The material is Leon Tokens. Leon tokens can be obtained for completing any quests and dungeons from level 50 to 70. WARNING: Shield <font color="#6cf">Type SP</font> and Leon Tokens are non-tradable items.</br></br>
+Combination Features:</br>
+The "Main Item" cannot be destroyed, if it fails, only the "Materials" are destroyed.</br>
+"Main item" saves the number of taliсs in the new item after a successful combo.</br>
+The shield property <font color="orange">Type C</font> depends on the property in the shield <font color='1560bd'>Type A</font>. The property is saved when creating <font color="#6cf">Type SP</font>.</br>&nbsp;
+
+   <table width="100%">
+    <th>Main Item</th><th>Material</th><th>Chance</th><th>Result</th>
+    <tr>
+     <td>Shield <font color="#FF9">Type B</font> 39-70 levels +0~+7</td><td>Shield <font color='1560bd'>Type A</font> Level 39-70 +0</td><td>40%</td><td>Shield <font color="orange">Type C</font> Level 39-70</td>
+    </tr>
+    <tr>
+     <td>Shield <font color="orange">Type C</font> lvl 50-57 +0~+7</td><td>Leon Token x1 pcs</td><td>30%</td ><td>Shield <font color="#6cf">Type SP</font> level 50-60</td>
+    </tr>
+    <tr>
+     <td>Shield <font color="orange">Type C</font> lvl 60-70 +0~+7</td><td>Leon Token x3 pcs</td><td>30%</td ><td>Shield <font color="#6cf">Type SP</font> level 63-70</td>
+    </tr>
+</table>
+    
+    
+          </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+      <div class="hystmodal hystmodal--simple" id="modalLong8" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+          <p align="center"><b>How to create Armor<font color="orange">Type C</font> and <font color="#6cf">Type SP</font> grade?</b></p>
+    
+    To improve the grade of equipment, you need to combine the hero's "Main item" and "Material".</br></br>
+The main item for crafting the <font color="orange">Type C</font> armor is the <font color="#FF9">Type B</font> armor. The material is talics.</br></br>
+
+The main item for crafting the <font color="#6cf">Type SP</font> armor is the <font color="orange">Type C</font> armor. The material is Leon Tokens. Leon tokens can be obtained for completing any quests and dungeons from level 50 to 70. WARNING: Armor <font color="#6cf">Type SP</font> and Leon Tokens are non-tradable items.</br></br>
+Combination Features:</br>
+The "Main Item" cannot be destroyed, if it fails, only the "Materials" are destroyed.</br>
+"Main item" saves the number of talics in the new item after a successful combo.</br>
+<font color="orange">Type C</font> armor property depends on the color of the talic. The property is saved when creating <font color="#6cf">Type SP</font>.</br>&nbsp;
+
+<table width="100%">
+    <tr>
+     <th>Talic</th><td>Chaos</td><td>Keen</td><td>Destruction</td><td>Favor</td><td>Restoration</td>
+    </tr>
+    <tr>
+     <th>Property</th><td>Crit chance +8%</td><td>Attack +5%</td><td>4% damage in HP</td><td>Defense +10% </td><td>Max HP +10%</td>
+    </tr>
+</table>&nbsp;
+    <table width="100%">
+    <th>Main Item</th><th>Material</th><th>Chance</th><th>Result</th>
+    <tr>
+     <td>Armor <font color="#FF9">Type B</font> 39-43 level +0~+7</td><td>Talic x1 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 39-43</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="#FF9">Type B</font> 45-47 level +0~+7</td><td>Talic x3 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 45-47</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="#FF9">Type B</font> level 50 +0~+7</td><td>Talic x5 pcs</td><td>90%</td>< td>Armor <font color="orange">Type C</font> level 50</td>
+    </tr>
+       <tr>
+     <td>Armor <font color="#FF9">Type B</font> level 53-55 +0~+7</td><td>Talic x10 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 53-55</td>
+    </tr>
+       <tr>
+     <td>Armor <font color="#FF9">Type B</font> level 57-60 +0~+7</td><td>Talic x20 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 57-60</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="#FF9">Type B</font> level 63-65 +0~+7</td><td>Talic x30 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 63-65</td>
+    </tr>
+       <tr>
+     <td>Armor <font color="#FF9">Type B</font> level 67-70 +0~+7</td><td>Talic x50 pcs</td><td>90%</td ><td>Armor <font color="orange">Type C</font> level 67-70</td>
+    </tr>
+       <tr>
+     <td>Armor <font color="orange">Type C</font> level 50 +0~+7</td><td>Leon Token x1 pcs</td><td>60%</td>< td>Armor <font color="#6cf">Type SP</font> level 50</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="orange">Type C</font> level 53-55 +0~+7</td><td>Leon Token x3 pcs</td><td>60%</td ><td>Armor <font color="#6cf">Type SP</font> level 53-55</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="orange">Type C</font> level 57-60 +0~+7</td><td>Leon Token x10 pcs</td><td>60%</td ><td>Armor <font color="#6cf">Type SP</font> level 57-60</td>
+    </tr>
+     <tr>
+     <td>Armor <font color="orange">Type C</font> level 63-65 +0~+7</td><td>Leon Token x20 pcs</td><td>60%</td ><td>Armor <font color="#6cf">Type SP</font> level 63-65</td>
+    </tr>
+    <tr>
+     <td>Armor <font color="orange">Type C</font> level 67-70 +0~+7</td><td>Leon Token x40 pcs</td><td>60%</td ><td>Armor <font color="#6cf">Type SP</font> level 67-70</td>
+    </tr>
+    </table>
+    
+    
+    
+          </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <div class="hystmodal hystmodal--simple" id="modalLong10" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window hystmodal__window--long" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Close</button>
+                <div class="hystmodal__styled">
+                    <div class="h1">
+    
+   <p align="center" font-size="24"><h13><font color="white"><b>"Battle-EXP Jade"</font></b></h13></p>
+With a small chance, when killing level 34+ monsters, you can get a "Battle-EXP Jade", which increases the amount of experience gained during the battle with monsters for 10 minutes. <br />» Only one "Battle-EXP Jade" works at a time with the greatest effect. <br />» You can throw it on the floor. » Disappears after 10 minutes.<br />
+<table width="100%">
+     <tr>
+     <th>Jade name</th><th>Maximum bonus</th><th>Location drop</th>
+    </tr>
+    <tr>
+     <td>Battle-EXP Jade[x1.5]</td><td>Experience rates x15</td><td>Sette Desert, Ether</td>
+    </tr>
+    <tr>
+     <td>Battle-EXP Jade[x2]</td><td>Experience rates x20</td><td>Cauldron, Elan</td>
+    </tr>
+    <tr>
+     <td>Battle-EXP Jade[x2,5]</td><td>Experience rates x25</td><td>EL, BM, OL</td>
+    </tr>
+    <tr>
+     <td>Battle-EXP Jade[x3]</td><td>Experience rates x30</td><td>Jetso Island</td>
+    </tr></table>
+    &nbsp;
+    
+    
+    <p align="center" font-size="24"><h13><font color="white"><b>Banana Soul EXP Capsule</font></b></h13></p >
+For gold points, you can buy the "Banana Soul" item from NPCs, which, when used, adds 5% to the character current experience.
+Rollback of use only while the character is in the game.<br />
+Gold points can be obtained from flym boxes, quests, dungeons and after destroying the ChipWar terminal
+<table width="100%">
+     <tr>
+     <th>Capsule name</th><th>NPC price</th><th>Use cooldown time</th>
+    </tr>
+    <tr>
+     <td>[5%exp]Soul of Banana[45-49lvl]</td><td>150 gold points</td><td>30 minutes(0.5 hour)</td>
+    </tr>
+    <tr>
+     <td>[5%exp]Soul of Banana[50-54lvl]</td><td>250 gold points</td><td>60 minutes(1 hour)</td>
+    </tr>
+    <tr>
+     <td>[5%exp]Soul of Banana[55-59lvl]</td><td>400 gold points</td><td>90 minutes(1.5 hours)</td>
+    </tr>
+    <tr>
+     <td>[5%exp]Soul of Banana[60-64lvl]</td><td>600 gold points</td><td>120 minutes (2 hours)</td>
+    </tr>
+    <tr>
+     <td>[5%exp]Soul of Banana[65-70lvl]</td><td>1000 gold points</td><td>180 minutes(3 hours)</td>
+    </tr></table>
+    &nbsp;
+    
+    
+    <p align="center" font-size="24"><h13><font color="white"><b>The Role of the Protector</font></b></h13></p>
+Players who have chosen the role of Defender (class Warrior, profession ShieldMiller) have a passive +20% bonus to experience during the battle with monsters (x12 experience rates). Bellato - class-buff "Fortification", Cora - class-buff "Inspiration", Accretia - class-buff "Emergency Power".<br />&nbsp;
+    
+      <p align="center" font-size="24"><h13><font color="white"><b>Group Experience System</font></b></h13></p>
+When dealing the lasthit to monster, the amount of experience gained dynamically changes depending on how many characters were in the group with the player who killed the monster.
+  
+    <table width="100%">
+    <tr>
+    <th>Amount players in group</th><td>Solo</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+   </tr>
+   <tr>
+    <th>In compare with max battle-exp by monster</th><td>70%</td><td>40%</td><td>36%</td><td>36%</td><td>21%</td><td>21%</td><td>21%</td><td>24%</td>
+   </tr>
+   <tr>
+    <th>In compare with max exp by monster</th><td>40%</td><td>23%</td><td>21%</td><td>21%</td><td>12%</td><td>12%</td><td>12%</td><td>14%</td>
+   </tr>
+   </table>
+    &nbsp;
+    
+    
+    <p align="center" font-size="24"><h13><font color="white"><b>Faster respawn and increased experience of some monsters</font></b></h13></p>
+To expand the number of spots and update some monsters, the following modifications were carried out on the locations Beast Mountains, Outcast Land and Elven Land.
+<details> <summary><p align="center"><font color="white"> => => =>[OPEN SPOILER WITH TABLE]<= <= <= </font></p></summary>
+<table width="100%">
+     <tr>
+     <th>Monster Name</th><th>Respawn Time</th><th>Increased EXP</th>
+   </tr>
+   <tr>
+     <td>War Beast[48-58]</td><td>3 minutes</td><td>x3</td>
+    </tr>
+    <tr>
+     <td>Mega Thornhead[49-59]</td><td>3 minutes</td><td>x9</td>
+    </tr>
+    <tr>
+     <td>Bloody Raptor[49-59]</td><td>3 minutes</td><td>x2</td>
+    </tr>
+    <tr>
+     <td>Weak Hammerhead[50-60]</td><td>3 minutes</td><td>x7</td>
+    </tr>
+    <tr>
+     <td>Black Toad[50-60]</td><td>3 minutes</td><td>x2</td>
+    </tr>
+    <tr>
+     <td>Sabertooth Matriarch[50-60]</td><td>3 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>Red Sabertooth[51-61]</td><td>3 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Clawed Pseudo Dragon[51-61]</td><td>3 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Azure Klaan[51-61]</td><td>3 minutes</td><td>x1.7</td>
+    </tr>
+    <tr>
+     <td>Footman[51-61]</td><td>3 minutes</td><td>x1.3</td>
+    </tr>
+    <tr>
+     <td>Elephant Warrior[51-61]</td><td>3 minutes</td><td>x2</td>
+    </tr>
+    <tr>
+     <td>Dark Rocketeer[52-62]</td><td>3 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>Striped Mantis[52-62]</td><td>3 minutes</td><td>x2</td>
+    </tr>
+    <tr>
+     <td>Greml Scout[53-63]</td><td>3 minutes</td><td>x20</td>
+    </tr>
+    <tr>
+     <td>Greml Shooter[53-63]</td><td>3 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>The Loud Lizard[53-63]</td><td>5 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Raptor Tyrant[53-63]</td><td>5 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Thor the Mercenary[53-63]</td><td>5 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Greml Lieutenant[54-64]</td><td>5 minutes</td><td>x2.3</td>
+    </tr>
+    <tr>
+     <td>Greml Captain[54-64]</td><td>5 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Narum Scout[55-65]</td><td>3 minutes</td><td>x20</td>
+    </tr>
+    <tr>
+     <td>Narum the Destroyer[55-65]</td><td>3 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>Kukra Gladiator[56-66]</td><td>3 minutes</td><td>x20</td>
+    </tr>
+    <tr>
+     <td>Kukra Berserk[56-66]</td><td>3 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>Narum Lieutenant[56-66]</td><td>5 minutes</td><td>x2.3</td>
+    </tr>
+    <tr>
+     <td>Narum Captain[56-66]</td><td>5 minutes</td><td>-</td>
+    </tr>
+    <tr>
+     <td>Kukra Lieutenant[57-67]</td><td>5 minutes</td><td>x1.5</td>
+    </tr>
+    <tr>
+     <td>Kukra Captain[57-67]</td><td>5 minutes</td><td>-</td>
+    </tr>
+   </table></details>
+    
+        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+  <script src="..\..\v3\polyfill.min.js?version=1.0.2"></script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/rf/info/";window.webpackCompilationHash="6be7731f12973df33758";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-8f17a3f55d5284fc1bca.js"],"component---src-components-pages-legal-index-tsx":["/component---src-components-pages-legal-index-tsx.1e19ef509238afc45ede.css","/component---src-components-pages-legal-index-tsx-cddaa36f200637200e7e.js"],"component---src-components-pages-legal-page-tsx":["/component---src-components-pages-legal-page-tsx.1e19ef509238afc45ede.css","/component---src-components-pages-legal-page-tsx-e0245011d52cedfbb0a6.js"],"component---src-components-pages-licenses-index-tsx":["/component---src-components-pages-licenses-index-tsx-835c39f34fafe46f4e89.js"],"component---src-pages-404-index-ts":["/component---src-pages-404-index-ts.63cd5a8e20f604a9830f.css","/component---src-pages-404-index-ts-87fcb4fa0e8c2c119478.js"],"component---src-pages-api-launcher-index-ts":["/component---src-pages-api-launcher-index-ts.4715dd185e16834d30e9.css","/component---src-pages-api-launcher-index-ts-0df06e0b2d82b5d415d1.js"],"component---src-pages-auth-index-tsx":["/component---src-pages-auth-index-tsx.6637c026c8c3198c1440.css","/component---src-pages-auth-index-tsx-6c2df2bd050dfc2364c5.js"],"component---src-pages-billing-index-tsx":["/component---src-pages-billing-index-tsx.4715dd185e16834d30e9.css","/component---src-pages-billing-index-tsx-c2e50155cb5138cadc43.js"],"component---src-pages-confirm-index-ts":["/component---src-pages-confirm-index-ts.4715dd185e16834d30e9.css","/component---src-pages-confirm-index-ts-adc967d534c8e9606f9b.js"],"component---src-pages-confirm-social-index-ts":["/component---src-pages-confirm-social-index-ts.5842d06c4879ae17c87a.css","/component---src-pages-confirm-social-index-ts-28a3bfff193ce99ce512.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx.a0bc806634c45bd7c5b8.css","/component---src-pages-index-tsx-6952a0cb544d71b7c414.js"],"component---src-pages-lineage-2-index-tsx":["/component---src-pages-lineage-2-index-tsx.d39e1214d1cd461a6812.css","/component---src-pages-lineage-2-index-tsx-6a48bb88cdedebd4f38d.js"],"component---src-pages-lineage-2-premium-index-tsx":["/component---src-pages-lineage-2-premium-index-tsx.fc4e249b5624f9263c05.css","/component---src-pages-lineage-2-premium-index-tsx-b235bd09553352c58a43.js"],"component---src-pages-lineage-2-classic-index-tsx":["/component---src-pages-lineage-2-classic-index-tsx.615dac6c72442e15bf96.css","/component---src-pages-lineage-2-classic-index-tsx-25a98543ba679def12b7.js"],"component---src-pages-lineage-2-classic-subscription-index-tsx":["/component---src-pages-lineage-2-classic-subscription-index-tsx.d3b90c0e7814317f97ae.css","/component---src-pages-lineage-2-classic-subscription-index-tsx-827c11846b207442757e.js"],"component---src-pages-lineage-2-essence-index-tsx":["/component---src-pages-lineage-2-essence-index-tsx.4de3fa4a02cce614132a.css","/component---src-pages-lineage-2-essence-index-tsx-b51c6024a90a123f2899.js"],"component---src-pages-login-index-tsx":["/component---src-pages-login-index-tsx.6637c026c8c3198c1440.css","/component---src-pages-login-index-tsx-2a7a968bd3a46c5a9b45.js"],"component---src-pages-patchnotes-index-tsx":["/component---src-pages-patchnotes-index-tsx.5385457598388af3ec25.css","/component---src-pages-patchnotes-index-tsx-f81559d0833bddb7d9c2.js"],"component---src-pages-profile-index-tsx":["/component---src-pages-profile-index-tsx.8b776dd75847e9973727.css","/component---src-pages-profile-index-tsx-1dd75b6227ba79c362a1.js"],"component---src-pages-restore-index-tsx":["/component---src-pages-restore-index-tsx.bfebcc0039724ae3e10e.css","/component---src-pages-restore-index-tsx-30e782c909b89b0db7aa.js"],"component---src-pages-rf-index-tsx":["/component---src-pages-rf-index-tsx.ef8a797faa6471c82718.css","/component---src-pages-rf-index-tsx-c0c9e970323eb633ad03.js"],"component---src-pages-rf-premium-index-tsx":["/component---src-pages-rf-premium-index-tsx.5b403fbe594721022742.css","/component---src-pages-rf-premium-index-tsx-4186bbd914276dbf0d2b.js"],"component---src-pages-rf-preorder-index-tsx":["/component---src-pages-rf-preorder-index-tsx-102.css","/component---src-pages-rf-preorder-index-tsx-3666a2018700eb754b39.js"],"component---src-pages-ro-index-ts":["/component---src-pages-ro-index-ts.de61e7fd40e83a86c666.css","/component---src-pages-ro-index-ts-5083a69023c89dfa299a.js"],"component---src-pages-ro-ratings-guild-index-tsx":["/component---src-pages-ro-ratings-guild-index-tsx.5dd2353af32d57643676.css","/component---src-pages-ro-ratings-guild-index-tsx-696d88f812fb9aca5a82.js"],"component---src-pages-ro-ratings-mvp-index-tsx":["/component---src-pages-ro-ratings-mvp-index-tsx.03de407233a07b096e3c.css","/component---src-pages-ro-ratings-mvp-index-tsx-a54393890541e2b35d4b.js"],"component---src-pages-s-2-s-index-tsx":["/component---src-pages-s-2-s-index-tsx.81d388637a28a1fff436.css","/component---src-pages-s-2-s-index-tsx-f24f8b10b2219c2e013f.js"],"component---src-pages-signin-index-tsx":["/component---src-pages-signin-index-tsx.2b4d4e36a78011fab654.css","/component---src-pages-signin-index-tsx-9db2cce04e567f663129.js"],"component---src-pages-signup-index-tsx":["/component---src-pages-signup-index-tsx.2b4d4e36a78011fab654.css","/component---src-pages-signup-index-tsx-8e44347bff3175fd73a0.js"],"component---src-pages-unsubscribe-index-tsx":["/component---src-pages-unsubscribe-index-tsx.771f8554e36cc6fb1cf3.css","/component---src-pages-unsubscribe-index-tsx-ad02dfb8c1957d02bbbf.js"],"component---src-pages-webshop-index-tsx":["/component---src-pages-webshop-index-tsx.685f06d95cd166e738e9.css","/component---src-pages-webshop-index-tsx-cfa5b4a38263e8c067a6.js"]};/*]]>*/</script><script src="..\..\v1.0.238\component---src-pages-rf-preorder-index-tsx-3666a2018700eb754b39.js?version=1.0.2" async=""></script><script src="..\..\v1.0.238\commons-c741344646a5bb6b9473.js?version=1.0.2" async=""></script><script src="..\..\v1.0.238\app-8f17a3f55d5284fc1bca.js?version=1.0.2" async=""></script><script src="..\..\v1.0.238\styles-3f68cefad20942d2c676.js?version=1.0.2" async=""></script><script src="..\..\v1.0.238\webpack-runtime-6906cc7de573306f4ac6.js?version=1.0.2" async=""></script>
+    <script src="../premium/dist/hystmodal.min.js?version=1.0.2"></script>
+    <script>
+        const myModal = new HystModal({
+            // for dynamic init() of modals
+            // linkAttributeName: false,
+            catchFocus: true,
+            closeOnEsc: true,
+            backscroll: true,
+            beforeOpen: function(modal){
+                console.log('Message before opening the modal');
+                console.log(modal); //modal window object
+            },
+            afterClose: function(modal){
+                console.log('Message after modal has closed');
+                console.log(modal); //modal window object
+
+                //If Youtube video inside Modal, close it on modal closing
+                let videoframe = modal.openedWindow.querySelector('iframe');
+                if(videoframe){
+                    videoframe.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+                }
+            },
+        });
+
+        // for dynamic init() of modals
+        // myModal.config.linkAttributeName = 'data-hystmodal';
+        // myModal.init();
+    </script></body></html>
+        </body></html>
