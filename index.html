@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RFonline 香蕉服资讯</title>
     <style>
-      a:hover {
-        color: orange;
+      body {
+        margin: 0; /* Set body margin to zero */
       }
     </style>
   </head>
   <body>
-    <div id="page-header" style="background-color:#f8f9fa;padding:10px;border-bottom:2px solid #ddd">
+    <!-- QQ群 and 登入 Section with White Background -->
+    <div id="page-header" style="background-color:white;padding:10px;margin-bottom:10px;">
       <header style="display:flex;justify-content:space-between;align-items:center">
         <div style="display:flex;align-items:center">
           <nav style="display:flex;gap:15px">
@@ -30,8 +31,16 @@
              onmouseout="this.style.color='black';">登入</a>
         </div>
       </header>
-      <div style="margin-top:20px;display:flex;flex-direction:column;align-items:flex-end">
-        <a href="https://your-download-link.com" target="_blank" style="background-color:#ffc107;border:none;padding:10px 20px;border-radius:5px;color:#fff;font-size:16px;cursor:pointer;text-decoration:none;display:flex;align-items:center;gap:10px">
+    </div>
+
+    <!-- Install Button Section with Light Grey Background -->
+    <div style="background-color:#f1f1f1;padding:10px;">
+      <div style="display:flex;flex-direction:column;align-items:flex-end">
+        <a href="https://your-download-link.com" 
+           target="_blank" 
+           style="background-color:#ffc107;border:none;padding:10px 20px;border-radius:5px;color:#fff;font-size:16px;cursor:pointer;text-decoration:none;display:flex;align-items:center;gap:10px"
+           onmouseover="this.style.backgroundColor='#ffd700';" 
+           onmouseout="this.style.backgroundColor='#ffc107';">
           <img src="./images/windows.svg" width="15" height="15" alt="icon">
           <span>下载安装 香蕉RF</span>
         </a>
@@ -39,6 +48,7 @@
       </div>
     </div>
 
+    <!-- Game Info Section -->
     <details>
       <summary>你给龙打油</summary>
       <p>» 最高等级: <font color="orange">70</font>
