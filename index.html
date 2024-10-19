@@ -50,7 +50,7 @@
             transform: translate(-50%, -50%); /* Adjust position to truly center it */
             text-align: center; /* Center the text */
             z-index: 1; /* Ensure it appears above the background */
-            width: 600px; /* Set a fixed width for the text container */
+            width: 90%; /* Adjust width for mobile */
         }
         .line1 {
             color: rgb(145, 82, 66); /* Set color for the first line */
@@ -71,6 +71,61 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: nowrap; /* Prevent buttons from wrapping */
+        }
+
+        /* Responsive adjustments for mobile */
+        @media (max-width: 768px) {
+            /* Adjust header padding for smaller screens */
+            #page-header {
+                padding: 10px;
+            }
+
+            /* Adjust the Install Button */
+            #install-section {
+                top: 40px;
+                padding: 8px;
+            }
+
+            /* Make the text more responsive */
+            .Exciting_Title {
+                width: 90%; /* Set the width relative for mobile */
+                top: 20%; /* Move the text up a bit */
+            }
+
+            /* Adjust font sizes for smaller screens */
+            .line1 {
+                font-size: 2rem; /* Scale down the font size */
+            }
+
+            .line2 {
+                font-size: 1.5rem; /* Scale down the font size */
+            }
+
+            /* Ensure the game info section doesn't overflow */
+            .game-info {
+                padding: 10px;
+            }
+        }
+
+        /* Extra small devices (phones, 600px and below) */
+        @media (max-width: 600px) {
+            .line1 {
+                font-size: 1.8rem; /* Further scale down the font size */
+            }
+
+            .line2 {
+                font-size: 1.2rem; /* Further scale down the font size */
+            }
+
+            /* Further adjust the text container width */
+            .Exciting_Title {
+                width: 95%;
+            }
+
+            /* Adjust the height of the background section */
+            #section-1 {
+                height: 800px; /* Set a smaller height for mobile */
+            }
         }
     </style>
 </head>
