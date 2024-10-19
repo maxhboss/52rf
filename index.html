@@ -1,232 +1,200 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RFonline 香蕉服资讯</title>
     <style>
-      body {
-        margin: 0;
-        /* Set body margin to zero */
-        padding-top: 100px;
-        /* Adjust based on the height of the fixed sections */
-        background-color: rgb(52, 22, 23);
-        /* Set background color */
-      }
-
-      #page-header {
-        background-color: white;
-        padding: 12px;
-        margin-bottom: 10px;
-        position: fixed;
-        /* Fix the header at the top */
-        top: 0;
-        left: 0;
-        width: calc(100% - 20px);
-        /* Adjust width to account for padding */
-        z-index: 1000;
-        /* Ensure it stays on top */
-      }
-
-      #install-section {
-        background-color: rgba(241, 241, 241, 0.95);
-        /* Adjust alpha value for transparency */
-        padding: 10px;
-        position: fixed;
-        /* Fix the install section below the header */
-        top: 45px;
-        /* Adjust based on the height of the header */
-        left: 0;
-        width: calc(100% - 20px);
-        /* Adjust width to account for padding */
-        margin-left: 0px;
-        /* Optional: Add margin to align with the header */
-        z-index: 999;
-        /* Ensure it stays on top of other content */
-      }
-
-      /* New section for background image */
-      #section-1 {
-        background-image: url('./images/background_pretty.webp');
-        /* Set background image */
-        background-size: auto;
-        /* Maintain original size */
-        background-repeat: no-repeat;
-        /* Prevent image from repeating */
-        background-position: center;
-        /* Center the image */
-        background-attachment: scroll;
-        /* Allow the background to scroll with the page */
-        width: 100%;
-        /* Make the width 100% to ensure it scales with the viewport */
-        height: 1040px;
-        /* Set height for the section */
-        margin: 22px auto 0;
-        /* Center the section and add top margin */
-        position: relative;
-        /* Make the parent position relative for absolute positioning of child */
-      }
-
-      /* Style for the text on top of the background image */
-      .Exciting_Title {
-        position: absolute;
-        /* Position it absolutely */
-        top: 15%;
-        /* Center vertically */
-        left: 50%;
-        /* Center horizontally */
-        transform: translate(-50%, -50%);
-        /* Adjust position to truly center it */
-        text-align: center;
-        /* Center the text */
-        z-index: 1;
-        /* Ensure it appears above the background */
-        width: 90%;
-        /* Adjust width for mobile */
-      }
-
-      .line1 {
-        color: rgb(145, 82, 66);
-        /* Set color for the first line */
-        font-size: 3rem;
-        /* Adjust font size for the first line */
-        font-weight: bold;
-        /* Make the first line bold */
-      }
-
-      .line2 {
-        color: rgb(145, 82, 66);
-        /* Set color for the second line */
-        font-size: 2rem;
-        /* Adjust font size for the second line */
-        font-weight: bold;
-        /* Make the second line normal weight */
-      }
-
-      /* Add a margin to the Game Info Section */
-      .game-info {
-        margin-top: 20px;
-        /* Adjust this value as needed */
-      }
-
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        /* Prevent buttons from wrapping */
-      }
-
-      /* Responsive adjustments for mobile */
-      @media (max-width: 768px) {
-
-        /* Adjust header padding for smaller screens */
+        body {
+            margin: 0; /* Set body margin to zero */
+            padding-top: 100px; /* Adjust based on the height of the fixed sections */
+            background-color: rgb(52, 22, 23); /* Set background color */
+        }
         #page-header {
-          padding: 10px;
+            background-color: white;
+            padding: 12px;
+            margin-bottom: 10px;
+            position: fixed; /* Fix the header at the top */
+            top: 0;
+            left: 0;
+            width: calc(100% - 20px); /* Adjust width to account for padding */
+            z-index: 1000; /* Ensure it stays on top */
         }
-
-        /* Adjust the Install Button */
         #install-section {
-          top: 40px;
-          padding: 8px;
+            background-color: rgba(241, 241, 241, 0.95); /* Adjust alpha value for transparency */
+            padding: 10px;
+            position: fixed; /* Fix the install section below the header */
+            top: 45px; /* Adjust based on the height of the header */
+            left: 0;
+            width: calc(100% - 20px); /* Adjust width to account for padding */
+            margin-left: 0px; /* Optional: Add margin to align with the header */
+            z-index: 999; /* Ensure it stays on top of other content */
         }
-
-        /* Make the text more responsive */
-        .Exciting_Title {
-          width: 90%;
-          /* Set the width relative for mobile */
-          top: 20%;
-          /* Move the text up a bit */
-        }
-
-        /* Adjust font sizes for smaller screens */
-        .line1 {
-          font-size: 2rem;
-          /* Scale down the font size */
-        }
-
-        .line2 {
-          font-size: 1.5rem;
-          /* Scale down the font size */
-        }
-
-        /* Ensure the game info section doesn't overflow */
-        .game-info {
-          padding: 10px;
-        }
-      }
-
-      /* Extra small devices (phones, 600px and below) */
-      @media (max-width: 600px) {
-        .line1 {
-          font-size: 1.8rem;
-          /* Further scale down the font size */
-        }
-
-        .line2 {
-          font-size: 1.2rem;
-          /* Further scale down the font size */
-        }
-
-        /* Further adjust the text container width */
-        .Exciting_Title {
-          width: 95%;
-        }
-
-        /* Adjust the height of the background section */
+        /* New section for background image */
         #section-1 {
-          height: 800px;
-          /* Set a smaller height for mobile */
+            background-image: url('./images/background_pretty.webp'); /* Set background image */
+            background-size: auto; /* Maintain original size */
+            background-repeat: no-repeat; /* Prevent image from repeating */
+            background-position: center; /* Center the image */
+            background-attachment: scroll; /* Allow the background to scroll with the page */
+            width: 100%; /* Make the width 100% to ensure it scales with the viewport */
+            height: 1040px; /* Set height for the section */
+            margin: 22px auto 0; /* Center the section and add top margin */
+            position: relative; /* Make the parent position relative for absolute positioning of child */
         }
-      }
+        /* Style for the text on top of the background image */
+        .Exciting_Title {
+            position: absolute; /* Position it absolutely */
+            top: 15%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust position to truly center it */
+            text-align: center; /* Center the text */
+            z-index: 1; /* Ensure it appears above the background */
+            width: 90%; /* Adjust width for mobile */
+        }
+        .line1 {
+            color: rgb(145, 82, 66); /* Set color for the first line */
+            font-size: 3rem; /* Adjust font size for the first line */
+            font-weight: bold; /* Make the first line bold */
+        }
+        .line2 {
+            color: rgb(145, 82, 66); /* Set color for the second line */
+            font-size: 2rem; /* Adjust font size for the second line */
+            font-weight: bold; /* Make the second line normal weight */
+        }
+        /* Add a margin to the Game Info Section */
+        .game-info {
+            margin-top: 20px; /* Adjust this value as needed */
+        }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent buttons from wrapping */
+    padding-left: 30px; /* Adjust this value to move QQ群 further from the left */
+    padding-right: 30px; /* Adjust this value to move 登入 further from the right */
+}
+
+        /* Responsive adjustments for mobile */
+        @media (max-width: 768px) {
+            /* Adjust header padding for smaller screens */
+            #page-header {
+                padding: 10px;
+            }
+
+            /* Adjust the Install Button */
+            #install-section {
+                top: 40px;
+                padding: 8px;
+            }
+
+            /* Make the text more responsive */
+            .Exciting_Title {
+                width: 90%; /* Set the width relative for mobile */
+                top: 20%; /* Move the text up a bit */
+            }
+
+            /* Adjust font sizes for smaller screens */
+            .line1 {
+                font-size: 2rem; /* Scale down the font size */
+            }
+
+            .line2 {
+                font-size: 1.5rem; /* Scale down the font size */
+            }
+
+            /* Ensure the game info section doesn't overflow */
+            .game-info {
+                padding: 10px;
+            }
+        }
+
+        /* Extra small devices (phones, 600px and below) */
+        @media (max-width: 600px) {
+            .line1 {
+                font-size: 1.8rem; /* Further scale down the font size */
+            }
+
+            .line2 {
+                font-size: 1.2rem; /* Further scale down the font size */
+            }
+
+            /* Further adjust the text container width */
+            .Exciting_Title {
+                width: 95%;
+            }
+
+            /* Adjust the height of the background section */
+            #section-1 {
+                height: 800px; /* Set a smaller height for mobile */
+            }
+        }
     </style>
-  </head>
-  <body>
-    <!-- QQ群 and 登入 Section with White Background -->
-    <div id="page-header">
-      <header>
+</head>
+<body>
+<!-- QQ群 and 登入 Section with White Background -->
+<div id="page-header">
+    <header>
         <div style="display:flex;align-items:center">
-          <nav style="display:flex;gap:15px">
-            <!-- QQ Group Link -->
-            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=OxRmPbFOuZNglBYvAZRfFVb9nGpThZsB&authKey=7G9pFCBwLhlChosxIGOLTVxazptM9xbydcn16W7clRZkdmb46Td2CxY%2FsNeUgioa&noverify=0&group_code=213920987" target="_blank" style="text-decoration:none;color:#000;padding:8px 15px;border-radius:5px;text-decoration:none;font-weight:bold" onmouseover="this.style.color='orange';" onmouseout="this.style.color='black';">QQ群</a>
-            <!-- 投票 Button -->
-            <a href="https://docs.qq.com/sheet/DUG1zTnppWGFob0lH?tab=BB08J2" target="_blank" style="text-decoration:none;color:#000;padding:8px 15px;border-radius:5px;text-decoration:none;font-weight:bold" onmouseover="this.style.color='orange';" onmouseout="this.style.color='black';">投票</a>
-          </nav>
+            <nav style="display:flex;gap:15px">
+                <!-- QQ Group Link -->
+                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=OxRmPbFOuZNglBYvAZRfFVb9nGpThZsB&authKey=7G9pFCBwLhlChosxIGOLTVxazptM9xbydcn16W7clRZkdmb46Td2CxY%2FsNeUgioa&noverify=0&group_code=213920987"
+                   target="_blank"
+                   style="text-decoration:none;color:#000;padding:8px 15px;border-radius:5px;text-decoration:none;font-weight:bold"
+                   onmouseover="this.style.color='orange';"
+                   onmouseout="this.style.color='black';">QQ群</a>
+                <!-- 投票 Button -->
+                <a href="https://docs.qq.com/sheet/DUG1zTnppWGFob0lH?tab=BB08J2"
+                   target="_blank"
+                   style="text-decoration:none;color:#000;padding:8px 15px;border-radius:5px;text-decoration:none;font-weight:bold"
+                   onmouseover="this.style.color='orange';"
+                   onmouseout="this.style.color='black';">投票</a>
+            </nav>
         </div>
         <div>
-          <a href="https://cp.rfbanana.ru" target="_blank" style="text-decoration:none;color:#000;font-weight:bold" onmouseover="this.style.color='orange';" onmouseout="this.style.color='black';">登入</a>
+            <a href="https://cp.rfbanana.ru"
+               target="_blank"
+               style="text-decoration:none;color:#000;font-weight:bold"
+               onmouseover="this.style.color='orange';"
+               onmouseout="this.style.color='black';">登入</a>
         </div>
-      </header>
-    </div>
+    </header>
+</div>
+
     <!-- Install Button Section with Light Grey Background -->
     <div id="install-section">
-      <div style="display:flex;flex-direction:column;align-items:flex-end">
-        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=OxRmPbFOuZNglBYvAZRfFVb9nGpThZsB&authKey=7G9pFCBwLhlChosxIGOLTVxazptM9xbydcn16W7clRZkdmb46Td2CxY%2FsNeUgioa&noverify=0&group_code=213920987" target="_blank" style="background-color:#ffc107;border:none;padding:10px 20px;border-radius:5px;color:#fff;font-size:16px;cursor:pointer;text-decoration:none;display:flex;align-items:center;gap:10px;font-weight:bold" onmouseover="this.style.backgroundColor='#ffd700';" onmouseout="this.style.backgroundColor='#ffc107';">
-          <img src="./images/windows.svg" width="15" height="15" alt="icon">
-          <span>下载安装 香蕉RF</span>
-        </a>
-        <small style="margin-top:0px;color:#6c757d">加入QQ群转发下载更快</small>
-      </div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end">
+            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=OxRmPbFOuZNglBYvAZRfFVb9nGpThZsB&authKey=7G9pFCBwLhlChosxIGOLTVxazptM9xbydcn16W7clRZkdmb46Td2CxY%2FsNeUgioa&noverify=0&group_code=213920987"
+               target="_blank"
+               style="background-color:#ffc107;border:none;padding:10px 20px;border-radius:5px;color:#fff;font-size:16px;cursor:pointer;text-decoration:none;display:flex;align-items:center;gap:10px;font-weight:bold"
+               onmouseover="this.style.backgroundColor='#ffd700';"
+               onmouseout="this.style.backgroundColor='#ffc107';">
+                <img src="./images/windows.svg" width="15" height="15" alt="icon">
+                <span>下载安装 香蕉RF</span>
+            </a>
+            <small style="margin-top:0px;color:#6c757d">加入QQ群转发下载更快</small>
+        </div>
     </div>
+
     <!-- New Background Section -->
     <div id="section-1">
-      <div class="Exciting_Title">
-        <span class="line1">香蕉RF资讯站</span>
-        <br>
-        <span class="line2">网页建设中...</span>
-      </div>
+        <div class="Exciting_Title">
+            <span class="line1">香蕉RF资讯站</span><br>
+            <span class="line2">网页建设中...</span>
+        </div>
     </div>
+
     <!-- Game Info Section with Margin to Avoid Overlap -->
     <div class="game-info">
-      <details>
-        <summary>你给龙打油</summary>
-        <p>» 最高等级: <font color="orange">70</font>
-          <br> » 经验倍数 <font color="orange">х10</font>
-          <br> » 会员不增加任何经验倍数且商城内无任何经验道具 <br> » 技能PT经验倍数: <font color="orange">х20</font>
-          <br> » 能力PT经验倍数: <font color="orange">х25</font>
-          <br> » 召唤兽经验倍数: <font color="orange">х30</font>
-        </p>
-      </details>
+        <details>
+            <summary>你给龙打油</summary>
+            <p>» 最高等级: <font color="orange">70</font>
+                <br> » 经验倍数 <font color="orange">х10</font>
+                <br> » 会员不增加任何经验倍数且商城内无任何经验道具 <br> » 技能PT经验倍数: <font color="orange">х20</font>
+                <br> » 能力PT经验倍数: <font color="orange">х25</font>
+                <br> » 召唤兽经验倍数: <font color="orange">х30</font>
+            </p>
+        </details>
     </div>
-  </body>
+</body>
 </html>
